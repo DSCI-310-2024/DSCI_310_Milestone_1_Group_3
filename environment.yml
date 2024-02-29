@@ -1,18 +1,15 @@
-name: base
+name: environment
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
-  - conda==23.11.0
-  - setuptools
-  - pip
-  - wheel
-  - conda-content-trust
-  - conda-libmamba-solver
-  - menuinst
-  - python.app
-  - jupyterlab
-  - jupyterlab-git
-  - jupyterlab-spellchecker
-prefix: /Users/shawnli/miniconda3
+  - r-base
+  - r-cowplot
+  - r-essentials
+  - r-ggally
+  - r-islr
+  - r-kknn
+  - r-repr
+  - r-tidymodels
+  - r-tidyverse
+prefix: C:\Users\User\miniconda3\envs\environment
