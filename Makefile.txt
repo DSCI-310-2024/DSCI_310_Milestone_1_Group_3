@@ -1,0 +1,26 @@
+# Makefile
+# authors: Sri Chaitanya, Selena Shaw, Shawn Li, Lesley Mai, Mar 2024
+# date: 2024-03-10
+
+# This driver script produces an html and pdf report of our analysis on "Predicting Canada's # Community Well-Being Index Scores". This script takes no arguments.
+
+# example usage:
+# make all
+# make clean
+
+all: reports/quarto_report.html \
+	reports/quarto_report.pdf
+
+# render quarto report in HTML and PDF
+reports/quarto_report.html: results reports/quarto_report.qmd
+	quarto render reports/quarto_report.qmd --to html
+
+reports/quarto_report.pdf: results reports/quarto_report.qmd
+	quarto render reports/quarto_report.qmd --to pdf
+
+# clean
+clean:
+	rm -rf results
+	rm -rf reports/quarto_report.html \
+		reports/quarto_report.pdf \
+		reports/quarto_report_files
