@@ -6,8 +6,12 @@
 # Usage: Rscript data_preprocess_and_split.R
 #  <input_path> <output_train_path> <output_test_path>
 #
+# Input: the entire clean data from script 1
+# Output: a training dataset and a testing dataset (in csv file)
+#
 # Command: Rscript data_preprocess_and_split.R CWB_2021.csv train_data.csv test_data.csv
-# In
+
+
 library(tidyverse)
 library(readr)
 library(docopt)
