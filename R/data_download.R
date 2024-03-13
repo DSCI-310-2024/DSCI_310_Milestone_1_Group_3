@@ -6,8 +6,10 @@
 # and saves it to a specified output path.
 #
 # Usage: Rscript data_download.R <output_path>
+# Input: Nothing
+# Output: clean entire dataset
 #
-# Example: Rscript data_download.R CWB_2021.csv
+# Command: Rscript data_download.R CWB_2021.csv
 
 library(readr)
 library(tidyverse)
