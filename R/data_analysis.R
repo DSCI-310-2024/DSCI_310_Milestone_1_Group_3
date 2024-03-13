@@ -6,6 +6,8 @@
 # and saves it to a specified output path.
 #
 # Usage: Rscript data_analysis.R <train_data> <test_data> <model> <summary>
+# Input: The training data and testing data
+# Output: the predicting model and performance (two tables)
 #
 # Command: Rscript data_analysis.R train_data.csv test_data.csv model summary
 
