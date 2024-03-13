@@ -13,7 +13,7 @@ The main programming language for this project is R (version 4.3 or greater). Th
 
 ### Usage 
 
-#### From Environment File:
+#### From the Environment File:
 1) First, clone the repository onto your local computer. In the terminal, via Git, create the environment by typing:
 
 conda env create --file environment.yml
