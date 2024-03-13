@@ -12,15 +12,28 @@ The CWB index scores are updated every year. While the data is publicly availabl
 The main programming language for this project is R (version 4.3 or greater). The IDE used to run the analysis was Jupyter Notebook. The packages required are listed in the environment.yml file.
 
 ### Usage 
-First, clone the repository onto your local computer. In the terminal, via Git, create the environment by typing:
+
+#### From the Environment File:
+1) First, clone the repository onto your local computer. In the terminal, via Git, create the environment by typing:
 
 conda env create --file environment.yml
 
 
-Then, to open up Jupyter Notebook, type:
+2) Then, to open up Jupyter Notebook, type:
 
 jupyter lab 
 
+#### From the Dockerfile:
+1) Sign into Docker and have it running on your computer
+2) Clone the repository: git clone <https://github.com/DSCI-310-2024/DSCI_310_Milestone_1_Group_3.git>
+3) Open your preferred terminal and navigate to the directory containing the Dockerfile
+4) Build the Docker Image: docker build -tag dsci310_group3_df .
+5) Start the container: docker run --rm -it -dsci310_group3_df bash
+6) exit when finished
+
+OR
+
+1) Run the docker-publish.yml workflow
 
 ### License
 Our project code is licensed under the MIT license and covers all of the original code used for this project. Our project report is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. 
