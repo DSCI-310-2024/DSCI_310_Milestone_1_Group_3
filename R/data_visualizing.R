@@ -7,22 +7,20 @@
 #                                   <plot_non_ind> <plot_first_na>
 #                                   <plot_inuit> <compair_plot>
 #
-# Example: Rscript data_visualizing.R CWB_2021.csv all_plot.jpg table_mean.csv plot_non_ind.jpg plot_first_na.jpg plot_inuit.jpg compair_plot.jpg
+# Input: the entire clean dataset
+# Output: 1 plot of overall variables (line plot),
+#         3 plots showing difference between communities (line plot),
+#         1 plot of relationship between variables (ggpair),
+#         1 table of mean value of variables (csv)
 #
-#
+# Command: Rscript data_visualizing.R CWB_2021.csv all_plot.jpg table_mean.csv plot_non_ind.jpg plot_first_na.jpg plot_inuit.jpg compair_plot.jpg
+
 
 library(readr)
 library(docopt)
 library(ggplot2)
 library(dplyr)
 library(GGally)
-
-
-# Parse command line arguments
-# doc <- ("
-# Usage:
-#   data_visualizing.R <input_data> <all_plot> <table_mean> <plot_non_ind> <plot_first_na> <plot_inuit> <compair_plot>
-# ")
 
 doc <- paste(
   "Usage:",
