@@ -23,7 +23,7 @@ library(cowplot)
 library(GGally)
 ```
 
-## Introduction:
+## Introduction
 
 Across Canada, we are able to evaluate the socio-economic health of communities by using the Community Well-Being (CWB) Index, which provides a unique perspective through which we may do so<sup>[1]</sup>. The Community Well-Being Index (CWB Index) is a comprehensive score that serves to reflect the overall well-being of each community<sup>[2]</sup>. It does this by incorporating factors such as education, income, labour force activity, and housing values. In addition to facilitating comparisons between communities of First Nations and Inuit, these scores also allow for comparisons to be made against a more general Canadian context.
 
