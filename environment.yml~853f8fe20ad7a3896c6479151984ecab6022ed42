@@ -1,0 +1,15 @@
+name: environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base
+  - r-cowplot
+  - r-essentials
+  - r-ggally
+  - r-islr
+  - r-kknn
+  - r-repr
+  - r-tidymodels
+  - r-tidyverse
+prefix: C:\Users\User\miniconda3\envs\environment
