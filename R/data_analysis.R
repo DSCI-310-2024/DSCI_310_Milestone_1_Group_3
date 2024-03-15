@@ -9,7 +9,7 @@
 # Input: The training data and testing data
 # Output: the predicting model and performance (two tables)
 #
-# Command: Rscript data_analysis.R train_data.csv test_data.csv model summary
+# Command: Rscript data_analysis.R train_data.csv test_data.csv model.csv summary.csv
 
 
 library(readr)
@@ -54,7 +54,7 @@ main <- function(train_data, test_data, model, summary) {
 
   model <- tidy(lm_fit)
 
-  write.csv(model,opts$model, row.names = FALSE) 
+  write.csv(model, opts$model, row.names = FALSE)
   write.csv(summary, opts$summary, row.names = FALSE)
 
 }
