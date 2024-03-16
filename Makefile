@@ -8,18 +8,18 @@
 # make all
 # make clean
 
-all: reports/quarto_report.html \
-	reports/quarto_report.pdf \
-	all_plot.jpg \
-	plot_non_ind.jpg \
-	plot_first_na.jpg \
-	plot_inuit.jpg \
-	compair_plot.jpg \
-	table_mean.csv \
-	train_data.csv \
-	test_data.csv \
-	model.csv \
-	summary.csv
+all: Results/all_plot.jpg \
+	Results/plot_non_ind.jpg \
+	Results/plot_first_na.jpg \
+	Results/plot_inuit.jpg \
+	Results/compair_plot.jpg \
+	Results/table_mean.csv \
+	Results/train_data.csv \
+	Results/test_data.csv \
+	Results/model.csv \
+	Results/summary.csv \
+	reports/quarto_report.html \
+	reports/quarto_report.pdf
 
 # generate figures and objects for report
 Results/all_plot.jpg Results/plot_non_ind.jpg Results/plot_first_na.jpg Results/plot_inuit.jpg Results/compair_plot.jpg Results/table_mean.csv: R/data_visualizing.R
@@ -31,11 +31,11 @@ Results/train_data.csv Results/test_data.csv Results/model.csv Results/summary.c
 		--out_dir="Results"
 
 # render quarto report in HTML and PDF
-reports/quarto_report.html: Results report.qmd
-	quarto render report.qmd --to html
+reports/quarto_report.html: Results ../report.qmd
+	quarto render ../report.qmd --to html
 
-reports/quarto_report.pdf: Results report.qmd
-	quarto render report.qmd --to pdf
+reports/quarto_report.pdf: Results ../report.qmd
+	quarto render ../report.qmd --to pdf
 
 # clean
 clean:
