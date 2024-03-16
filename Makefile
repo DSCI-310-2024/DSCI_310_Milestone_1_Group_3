@@ -1,6 +1,6 @@
 # Makefile
 # authors: Sri Chaitanya, Selena Shaw, Shawn Li, Lesley Mai, Mar 2024
-# date: 2024-03-10
+# date: 2024-03-15
 
 # This driver script produces an html and pdf report of our analysis on "Predicting Canada's # Community Well-Being Index Scores". This script takes no arguments.
 
@@ -39,7 +39,7 @@ reports/quarto_report.pdf: Results reports/report.qmd
 
 # clean
 clean:
-	rm -rf results
+	rm -rf Results
 	rm -rf reports/quarto_report.html \
 		reports/quarto_report.pdf \
 		reports/quarto_report_files
