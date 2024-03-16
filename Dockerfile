@@ -6,4 +6,6 @@ RUN conda install -y \
     r-ggally=2.2.1 \
     r-islr=1.4 \
     r-kknn=1.3.1 \
-    r-repr=1.1.6
+    r-repr=1.1.6 \
+    r-quarto=1.2
+
