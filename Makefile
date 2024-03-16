@@ -31,11 +31,11 @@ Results/train_data.csv Results/test_data.csv Results/model.csv Results/summary.c
 		--out_dir="Results"
 
 # render quarto report in HTML and PDF
-reports/quarto_report.html: Results reports/report.qmd
-	quarto render ../report.qmd --to html
+reports/quarto_report.html: Results report.qmd
+	quarto render report.qmd --to html
 
-reports/quarto_report.pdf: Results reports/report.qmd
-	quarto render ../report.qmd --to pdf
+reports/quarto_report.pdf: Results report.qmd
+	quarto render report.qmd --to pdf
 
 # clean
 clean:
