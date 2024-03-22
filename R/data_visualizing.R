@@ -251,6 +251,7 @@ main <- function(input_dir, out_dir) {
 
   ggsave("plot_inuit.jpg", device = "jpg", path = out_dir)
 
+
   # plot the relationship between all variables
   compared_data <- data |>
     select(Income_2021:Labour_Force_Activity_2021) # nolint
@@ -260,6 +261,9 @@ main <- function(input_dir, out_dir) {
     ggpairs(mapping = aes(alpha = 0.4)) +
     labs(caption = "Figure 1: Relationship between Variables") +
     theme(text = element_text(size = 20))
+
+  print(compair_plot)
+  dev.off()
 
   ggsave("compair_plot.jpg", device = "jpg", path = out_dir)
 
