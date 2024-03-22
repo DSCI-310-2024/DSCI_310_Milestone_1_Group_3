@@ -1,0 +1,174 @@
+---
+title: "DSCI 310: Predicting Canada's Community Well-Being Index Scores"
+author: "Shawn Li, Selena Shew, Sri Chaitanya Bonthula, Lesley Mai"
+format: 
+    html:
+        toc: true
+        toc-depth: 2
+    pdf:
+        toc: true
+        toc-depth: 2
+execute: 
+    echo: false
+    warnings: false
+editor: source
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(repr)
+library(tidymodels)
+library(ISLR)
+library(cowplot)
+library(GGally)
+```
+
+## Introduction:
+
+Across Canada, we are able to evaluate the socio-economic health of communities by using the Community Well-Being (CWB) Index, which provides a unique perspective through which we may do so<sup>[1]</sup>. The Community Well-Being Index (CWB Index) is a comprehensive score that serves to reflect the overall well-being of each community<sup>[2]</sup>. It does this by incorporating factors such as education, income, labour force activity, and housing values. In addition to facilitating comparisons between communities of First Nations and Inuit, these scores also allow for comparisons to be made against a more general Canadian context.
+
+Our [dataset](https://open.canada.ca/data/en/dataset/56578f58-a775-44ea-9cc5-9bf7c78410e6) originates from Indigenous Services Canada. **How do these socio-economic factors influence CWB scores, and what can they reveal about community health disparities?** This is the question that our research investigates as we investigate the predictive power of these factors. The purpose of this project is to disentangle the intricate connections that exist between these indicators and the well-being of the community by making use of data obtained from the Census of Population conducted by Statistics Canada. The findings of this project could provide valuable insights that could be used to guide policy and intervention strategies. 
+
+
+## Data
+
+We have stored the dataset into a csv file, and import the file into Jupyter Notebook for analysis. We directly used the function `read_csv` to view the csv file downloaded.
+
+Some of the observations are not including certain information, therefore, we use function `filter` to exclude rows with NA values in key columns beforing actually analyzing and obtain a clean data frame, ensuring the dataset's integrity for analysis.
+
+Here is the first few rows of our data:
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#| label: tbl-data
+#| tbl-cap: Full data in CWB 2021
+dataset <- read_csv("../results/clean_data.csv")
+head(dataset)
+```
+
+## Data Preprocessing
+The data was first split into training and testing sets so that the model could be validated. Then we made histograms and summary statistics to see how 4 variables are spread out. These insights help choose the features of the model. 
+
+Here is the head of our training data:
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#| label: tbl-train
+#| tbl-cap: CWB_2021 Training Dataset
+training_d <- read_csv("../results/train_data.csv")
+head(training_d)
+```
+
+Here is the head of our testing data:
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#| label: tbl-test
+#| tbl-cap: CWB_2021 Testing Dataset
+
+testing_d <- read_csv("../results/test_data.csv")
+head(testing_d)
+```
+
+## Visualization of Data
+
+### Overall Data
+
+Now the first several rows of the data has been shown, and it seems well-organized and tidy. Since the goal is to predict the CWB index by 4 predictors below, we need to have a glance at each of the variables for a deeper insight.
+
+- Income: The average income level in 2021. Higher income levels are typically associated with better access to resources and may positively influence the CWB score.
+- Education: The average education level attained. Education is often linked to better socioeconomic outcomes and may be a strong predictor of CWB.
+- Housing: The average housing quality or status. Adequate housing is a critical component of well-being, affecting both physical and mental health.
+- Labour force: The level of employment or labor force participation. Higher labor force activity might correlate with higher economic productivity and, consequently, higher CWB scores.
+
+First of all, we create a plot for the entire database, this plot involves all 4 predictors and the response variable CWB index. Specifically, we used multiple lines in the plot to indicate the counts of different variables in different levels (or values). Each line of different colour represents one of the variable in the data. By looking at the plot, we can easily find potential relationships between predictors and the response variable, as well as what does the entire data look like.
+
+![Index of Different Variables for the entire dataset of CWB_2021](../results/all_plot.jpg){#fig-all_plot width=70%}
+
+By looking at @fig-all_plot, we see that all the predictors and the response variable forms a normal distribution, with mean between 50 - 100. Since the distribution of CWB index is right in the middle of all other variable, it might be possible that CWB index is actually the mean of all other variables.
+
+
+### Viewing the Mean
+
+Below, we looked at the mean value of the four predictors and the response variable.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#| label: tbl-mean
+#| tbl-cap: The mean value of the four predicting variables (house, education, labour, income) and the response variable (CWB Index)
+mean_data <- read_csv("../results/table_mean.csv")
+head(mean_data)
+```
+
+###  Difference between Different Communities
+
+Since we have neglected the type of communities in our predictors, it is essential to take them into account. By splitting the data into different parts, each have one type of community, we generated three plots of counts of different variables in different communities just like what we did in the previous plot. Then we can make comparison between communities. Here is the plots for all three communities:
+
+![Index of Different Variables for Non-Indigenous Community](../results/plot_non_ind.jpg){#fig-non_ind width=70%}
+
+![Index of Different Variables for First Nations Community](../results/plot_first_na.jpg){#fig-first_na width=70%}
+
+![Index of Different Variables for Inuit Community](../results/plot_inuit.jpg){#fig-inuit width=70%}
+
+
+It seems like the quality of first nation people' lives from @fig-first_na is a bit lower than non-indigenous people's reflected by @fig-non_ind since the distribution of variables in @fig-first_na is shows a lower mean. We did not clearly see the distribution of data in @fig-inuit since there are only a few data points, all we see is their housing index is very high.
+
+Since there are only a few data points in first nation and inuit communities, even if there is a small difference between different communities, we can nearly neglect the difference when creating the predicting model.
+
+
+### General Relationship
+
+We use `ggpairs` from the `GGally` package to see how key variables are distributed and how they are related to each other. This gives us a full picture of possible linear correlations and points out any outliers or strange patterns.
+
+![Correlations between different Variables](../results/compair_plot.jpg){#fig-compair_plot width=80%}
+
+Observation: @fig-compair_plot show that all 4 predictors have strong linear relationships with the CWB score, and the correlation coefficients show that these relationships are very strong.
+
+
+## Analysis
+
+In order to avoid the weakness of KNN Regression, a linear regression model from DSCI100 is used. The workflow is to build up a formula, or a linear model trained from the training dataset, and use the trained model to test its prediction on testing data.
+
+Thus, we proceeded with building our linear Regression model.
+
+- We first specified our linear regression model using the `lm()`, capitalizing on its simplicity and robustness for our type of data. Then we define the recipe with 4 chosen variables.
+- Next, fitted the model to the training data using `fit()`, which allowed us to estimate the relationship between our predictors and the CWB score.
+- We employed the `predict` on the test set to assess the model’s predictive accuracy, followed by calculating performance metrics such as RMSE and R-squared, which indicate how well our model generalizes to new data.
+- Then, interpreted the model's coefficients to understand the impact of each predictor on the CWB score. We know that a positive coefficient suggests a direct relationship, whereas a negative coefficient indicates an inverse relationship.
+Finally, reviewed diagnostic plots and validation metrics to ensure the assumptions of linear regression are met.
+
+Here is the linear model based on the training data:
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#| label: tbl-model
+#| tbl-cap: Linear Predicting Model
+model <- read_csv("../results/model.csv")
+print(model)
+```
+
+Here is the performance of the model:
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#| label: tbl-performance
+#| tbl-cap: Performance of the Linear Predicting Model (Evaluation based on RMSE, RSQ, MAE)
+summary <- read_csv("../results/summary.csv")
+print(summary)
+```
+
+With the established linear regression model, our prediction is significantly improved, and we can now clearly see what our model looks like.
+
+The expression of our model is:
+
+$Community$ $Well$-$Being$ $Index$ $=$ $0.06391 + 0.25011*Income$ + $0.24988*Education$ + $0.24929*Housing$ + $0.25001 * Labour$ $Force$ $Activity$
+
+Here is an interesting observation from @tbl-model:
+
+We found that indeed, CWB index is just the average of all other variables.
+
+## Conclusion
+
+As a result of our investigation, we discovered that socio-economic factors have a significant influence on the Community Well-Being Index scores received by Canadian communities. It has been determined that the most important factors that determine the well-being of a community are income, education, housing, and participation in the labour force. The fact that we were able to improve our predictive accuracy by switching from KNN to linear regression modelling is evidence of the complexity of the relationships between these variables. This research lays the groundwork for the development of specific interventions that are aimed at enhancing the well-being of the community.
+
+We hypothesized that socio-economic indicators have a significant influence on the well-being of communities, and the findings supported this hypothesis. It is clear from this validation that income, education, housing, and employment all play a significant role in determining the health of a community. The findings of our study have a wide range of implications, and they suggest that strategically targeted policy interventions in these areas could significantly improve the CWB scores, particularly in communities that are economically disadvantaged<sup>[3]</sup>. With such insights, policymakers and community planners have the potential to be guided in the development of more effective strategies for enhancing the well-being of communities across a wide range of landscapes in Canada<sup>[4]</sup>.
+
+Future exploration:
+1. How might other, less traditionally quantified socio-economic factors, such as community engagement, access to technology, and environmental sustainability, contribute to the overall well-being of Canadian communities?
+2. What role do technological advancements and digital access play in shaping the CWB scores, particularly in remote or underserved communities?
+
+## Reference
+
+1. About the Community Well-Being Index. 31 Jan. 2024, www.sac-isc.gc.ca/eng/1421245446858/1557321415997.
+2. “NCCIH - National Collaborating Centre for Indigenous Health > Home > NCCIH PUBLICATIONS.” NCCIH, 15 June 2016, www.nccih.ca/495/Health_inequalities_and_the_social_determinants_of_Aboriginal_peoples__health_.nccih?id=46.
+3. Five-Year Evaluation Plan 2019-2020 to 2023-2024. 29 Oct. 2019, www.sac-isc.gc.ca/eng/1570114159516/1570114187006.
+4. Moving Forward on Well-being (Quality of Life) Measures in Canada. 12 July 2021, www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2021006-eng.html.
