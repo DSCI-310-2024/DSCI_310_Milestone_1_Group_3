@@ -51,4 +51,5 @@ clean:
 	rm -rf results
 	rm -rf reports/report.html \
 		reports/report.pdf \
-		reports/report_files
+		reports/report_files \
+		Rplots.pdf
