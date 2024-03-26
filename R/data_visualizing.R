@@ -2,19 +2,11 @@
 # date: 2024-03-08
 # This script creates visualization for data,
 # performs plots for further analysis
-#
-# Usage: Rscript data_visualizing.R <input_data> <all_plot> <table_mean>
-#                                   <plot_non_ind> <plot_first_na>
-#                                   <plot_inuit> <compair_plot>
-#
 # Input: the entire clean dataset
 # Output: 1 plot of overall variables (line plot),
 #         3 plots showing difference between communities (line plot),
 #         1 plot of relationship between variables (ggpair),
 #         1 table of mean value of variables (csv)
-#
-# Command: Rscript data_visualizing.R CWB_2021.csv all_plot.jpg table_mean.csv plot_non_ind.jpg plot_first_na.jpg plot_inuit.jpg compair_plot.jpg
-
 
 library(readr)
 library(docopt)
@@ -22,22 +14,22 @@ library(ggplot2)
 library(dplyr)
 library(GGally)
 
-doc <- paste(
-  "Usage:",
-  "  data_visualizing.R <input_data> <all_plot> <table_mean>",
-  "                     <plot_non_ind> <plot_first_na>",
-  "                     <plot_inuit> <compair_plot>",
-  collapse = "\n"
-)
+doc <- "
+Usage:
+data_visualizing.R --input_dir=<input_dir> --out_dir=<out_dir>
+
+Options:
+  --input_dir=<input_dir>
+  --out_dir=<out_dir>
+"
 
 
 opts <- docopt(doc)
 
 
-main <- function(input_data, all_plot, table_mean, plot_non_ind,
-                 plot_first_na, plot_inuit, compair_plot) {
+main <- function(input_dir, out_dir) {
 
-  data <- read_csv(input_data)
+  data <- read_csv(input_dir)
 
   # count different income levels
   count_income <- data |>
@@ -95,12 +87,15 @@ main <- function(input_data, all_plot, table_mean, plot_non_ind,
                                   "CWB Index" = "black")) +
     theme_minimal()
 
+  ggsave("all_plot.jpg", device = "jpg", path = out_dir)
+
   # count the average value of variables
   # "Table 1: Mean values across Income, Education,
   # Housing, Labour Force and CWB Index"
   table_mean <- data |>
     summarize(across(Income_2021:CWB_2021, mean)) # nolint
 
+  write_csv(table_mean, file.path(out_dir, "table_mean.csv"))
 
   # split the database with different community type
   non_indigenous <- data[data$Community_Type_2021
@@ -159,6 +154,8 @@ main <- function(input_data, all_plot, table_mean, plot_non_ind,
                                   "Housing" = "green")) +
     theme_minimal()
 
+  ggsave("plot_non_ind.jpg", device = "jpg", path = out_dir)
+
 
   #count the average value of variables
   first_nations_inc <- first_nations |>
@@ -205,6 +202,8 @@ main <- function(input_data, all_plot, table_mean, plot_non_ind,
                                   "Housing" = "green")) +
     theme_minimal()
 
+  ggsave("plot_first_na.jpg", device = "jpg", path = out_dir)
+
 
   #count the average value of variables
   inuit_inc <- inuit |>
@@ -250,6 +249,8 @@ main <- function(input_data, all_plot, table_mean, plot_non_ind,
                                   "Housing" = "green")) +
     theme_minimal()
 
+  ggsave("plot_inuit.jpg", device = "jpg", path = out_dir)
+
 
   # plot the relationship between all variables
   compared_data <- data |>
@@ -261,17 +262,12 @@ main <- function(input_data, all_plot, table_mean, plot_non_ind,
     labs(caption = "Figure 1: Relationship between Variables") +
     theme(text = element_text(size = 20))
 
-  ggsave(filename = opts$all_plot, plot = all_plot, device = "jpg")
-  ggsave(filename = opts$plot_non_ind, plot = plot_non_ind, device = "jpg")
-  ggsave(filename = opts$plot_first_na, plot = plot_first_na, device = "jpg")
-  ggsave(filename = opts$plot_inuit, plot = plot_inuit, device = "jpg")
-  ggsave(filename = opts$compair_plot, plot = compair_plot,
-         width = 14, height = 7, device = "jpg")
-  write.csv(table_mean, opts$table_mean, row.names = FALSE)
+  print(compair_plot)
+  dev.off()
+
+  ggsave("compair_plot.jpg", device = "jpg", path = out_dir)
 
 }
 
 # Call the main function with the input and output path argument
-main(opts$input_data, opts$all_plot, opts$table_mean,
-     opts$plot_non_ind, opts$plot_first_na, opts$plot_inuit,
-     opts$compair_plot)
+main(opts[["--input_dir"]], opts[["--out_dir"]])

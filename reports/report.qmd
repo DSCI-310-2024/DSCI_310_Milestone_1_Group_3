@@ -40,7 +40,7 @@ Here is the first few rows of our data:
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #| label: tbl-data
 #| tbl-cap: Full data in CWB 2021
-dataset <- read_csv("results/CWB_2021.csv")
+dataset <- read_csv("../results/clean_data.csv")
 head(dataset)
 ```
 
@@ -51,7 +51,7 @@ Here is the head of our training data:
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #| label: tbl-train
 #| tbl-cap: CWB_2021 Training Dataset
-training_d <- read_csv("results/train_data.csv")
+training_d <- read_csv("../results/train_data.csv")
 head(training_d)
 ```
 
@@ -60,7 +60,7 @@ Here is the head of our testing data:
 #| label: tbl-test
 #| tbl-cap: CWB_2021 Testing Dataset
 
-testing_d <- read_csv("results/test_data.csv")
+testing_d <- read_csv("../results/test_data.csv")
 head(testing_d)
 ```
 
@@ -89,7 +89,7 @@ Below, we looked at the mean value of the four predictors and the response varia
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #| label: tbl-mean
 #| tbl-cap: The mean value of the four predicting variables (house, education, labour, income) and the response variable (CWB Index)
-mean_data <- read_csv("results/table_mean.csv")
+mean_data <- read_csv("../results/table_mean.csv")
 head(mean_data)
 ```
 
@@ -134,7 +134,7 @@ Here is the linear model based on the training data:
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #| label: tbl-model
 #| tbl-cap: Linear Predicting Model
-model <- read_csv("results/model.csv")
+model <- read_csv("../results/model.csv")
 print(model)
 ```
 
@@ -142,7 +142,7 @@ Here is the performance of the model:
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #| label: tbl-performance
 #| tbl-cap: Performance of the Linear Predicting Model (Evaluation based on RMSE, RSQ, MAE)
-summary <- read_csv("results/summary.csv")
+summary <- read_csv("../results/summary.csv")
 print(summary)
 ```
 

@@ -28,12 +28,9 @@ jupyter lab
 2) Clone the repository: git clone <https://github.com/DSCI-310-2024/DSCI_310_Milestone_1_Group_3.git>
 3) Open your preferred terminal and navigate to the directory containing the Dockerfile
 4) Build the Docker Image: docker build -tag dsci310_group3_df .
-5) Start the container: docker run --rm -it -dsci310_group3_df bash
-6) exit when finished
-
-OR
-
-1) Run the docker-publish.yml workflow
+5) Start the container & mount the correct volume: docker run --rm -it -v /$(pwd):/home/project dsci310_group3_df bash
+6) navigate to the correct directory on the container: cd /home/project
+7) exit when finished
 
 ### License
 Our project code is licensed under the MIT license and covers all of the original code used for this project. Our project report is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. 
