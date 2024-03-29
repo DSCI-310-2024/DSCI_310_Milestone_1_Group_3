@@ -13,6 +13,8 @@ library(docopt)
 library(ggplot2)
 library(dplyr)
 library(GGally)
+source("R/lineplot_function.R")
+
 
 doc <- "
 Usage:
@@ -30,64 +32,14 @@ opts <- docopt(doc)
 main <- function(input_dir, out_dir) {
 
   data <- read_csv(input_dir)
+  cols <- c("Income_2021", "Education_2021",
+            "Labour_Force_Activity_2021",
+            "Housing_2021",
+            "CWB_2021")
 
-  # count different income levels
-  count_income <- data |>
-    group_by(Income_2021) |> # nolint
-    summarize(count = n())
-
-  # count different education levels
-  count_edu <- data |>
-    group_by(Education_2021) |> # nolint
-    summarize(count = n())
-
-
-  # count different labour force levels
-  count_labour <- data |>
-    group_by(Labour_Force_Activity_2021) |> # nolint
-    summarize(count = n())
-
-
-  # count different house levels
-  count_house <- data |>
-    group_by(Housing_2021) |> # nolint
-    summarize(count = n())
-
-  count_cwb <- data |>
-    group_by(CWB_2021) |> # nolint
-    summarize(count = n())
-
-  count_income$variable <- "Income"
-  count_edu$variable <- "Education"
-  count_labour$variable <- "Labour Force"
-  count_house$variable <- "Housing"
-  count_cwb$variable <- "CWB Index"
-
-  # Combine all datasets into one dataframe for plotting
-  # Note that we need to rename the variables
-  count_income <- count_income |> rename(Index = Income_2021) # nolint
-  count_edu <- count_edu |> rename(Index = Education_2021) # nolint
-  count_labour <- count_labour |> rename(Index = Labour_Force_Activity_2021) # nolint
-  count_house <- count_house |> rename(Index = Housing_2021) # nolint
-  count_cwb <- count_cwb |> rename(Index = CWB_2021) # nolint
-
-  # Combine the data
-  all_data <- bind_rows(count_income, count_edu,
-                        count_labour, count_house, count_cwb)
-
-  # Plot with a single ggplot call, which will create a legend automatically
-  all_plot <- ggplot(all_data, aes(x = Index, y = count, color = variable)) + # nolint
-    geom_line() +  # The line color will be set by the 'variable' column
-    xlab("Index") +
-    ylab("Counts") +
-    ggtitle("Index of Different Variables") +
-    scale_color_manual(values = c("Income" = "blue", "Education" = "red",
-                                  "Labour Force" = "yellow",
-                                  "Housing" = "green",
-                                  "CWB Index" = "black")) +
-    theme_minimal()
-
-  ggsave("all_plot.jpg", device = "jpg", path = out_dir)
+  all_plot <- lineplot(data, cols)
+  ggsave("all_plot.jpg", all_plot, device = "jpg", path = out_dir,
+         width = 12, height = 8)
 
   # count the average value of variables
   # "Table 1: Mean values across Income, Education,
@@ -106,150 +58,20 @@ main <- function(input_dir, out_dir) {
   inuit <- data[data$Community_Type_2021
                 == "Inuit Community", ]
 
-  # count the average value of variables
-  non_indigenous_inc <- non_indigenous |>
-    group_by(Income_2021) |> # nolint
-    summarize(count = n())
 
-  non_indigenous_edu <- non_indigenous |>
-    group_by(Education_2021) |> # nolint
-    summarize(count = n())
-
-  # count different labour force levels
-  non_indigenous_labour <- non_indigenous |>
-    group_by(Labour_Force_Activity_2021) |> # nolint
-    summarize(count = n())
-
-  # count different house levels
-  non_indigenous_house <- non_indigenous |>
-    group_by(Housing_2021) |> # nolint
-    summarize(count = n())
-
-  non_indigenous_inc$variable <- "Income"
-  non_indigenous_edu$variable <- "Education"
-  non_indigenous_labour$variable <- "Labour Force"
-  non_indigenous_house$variable <- "Housing"
-
-  # Combine all datasets into one dataframe for plotting
-  # Note that we need to rename variable names
-  non_indigenous_inc <- non_indigenous_inc |> rename(Index = Income_2021) # nolint
-  non_indigenous_edu <- non_indigenous_edu |> rename(Index = Education_2021) # nolint # nolint
-  non_indigenous_labour <- non_indigenous_labour |>
-    rename(Index = Labour_Force_Activity_2021) # nolint
-  non_indigenous_house <- non_indigenous_house |> rename(Index = Housing_2021) # nolint
-
-  # Combine the data
-  all_data_1 <- bind_rows(non_indigenous_inc, non_indigenous_edu,
-                          non_indigenous_labour, non_indigenous_house)
-
-  # Plot with a single ggplot call, which will create a legend automatically
-  plot_non_ind <- ggplot(all_data_1, aes(x = Index, # nolint
-                                         y = count, color = variable)) + # nolint
-    geom_line() +  # The line color will be set by the 'variable' column
-    xlab("Index") +
-    ylab("Counts") +
-    ggtitle("Index of Different Variables of Non Indigenous Community") +
-    scale_color_manual(values = c("Income" = "blue", "Education" = "red",
-                                  "Labour Force" = "yellow",
-                                  "Housing" = "green")) +
-    theme_minimal()
-
-  ggsave("plot_non_ind.jpg", device = "jpg", path = out_dir)
+  plot_non_ind <- lineplot(non_indigenous, cols)
+  ggsave("plot_non_ind.jpg", plot_non_ind, device = "jpg", path = out_dir,
+         width = 12, height = 8)
 
 
-  #count the average value of variables
-  first_nations_inc <- first_nations |>
-    group_by(Income_2021) |> # nolint
-    summarize(count = n())
-
-  first_nations_edu <- first_nations |>
-    group_by(Education_2021) |> # nolint
-    summarize(count = n())
-
-  # count different labour force levels
-  first_nations_labour <- first_nations |>
-    group_by(Labour_Force_Activity_2021) |> # nolint
-    summarize(count = n())
-
-  # count different house levels
-  first_nations_house <- first_nations |>
-    group_by(Housing_2021) |> # nolint
-    summarize(count = n())
-
-  first_nations_inc$variable <- "Income"
-  first_nations_edu$variable <- "Education"
-  first_nations_labour$variable <- "Labour Force"
-  first_nations_house$variable <- "Housing"
-
-  first_nations_inc <- first_nations_inc |> rename(Index = Income_2021) # nolint
-  first_nations_edu <- first_nations_edu |> rename(Index = Education_2021) # nolint
-  first_nations_labour <- first_nations_labour |>
-    rename(Index = Labour_Force_Activity_2021) # nolint
-  first_nations_house <- first_nations_house |> rename(Index = Housing_2021) # nolint
-
-  all_data_2 <- bind_rows(first_nations_inc, first_nations_edu,
-                          first_nations_labour, first_nations_house)
-
-  # Plot with a single ggplot call, which will create a legend automatically
-  plot_first_na <- ggplot(all_data_2, aes(x = Index, # nolint
-                                          y = count, color = variable)) + # nolint
-    geom_line() +  # The line color will be set by the 'variable' column
-    xlab("Index") +
-    ylab("Counts") +
-    ggtitle("Index of Different Variables of First Nations Community") +
-    scale_color_manual(values = c("Income" = "blue", "Education" = "red",
-                                  "Labour Force" = "yellow",
-                                  "Housing" = "green")) +
-    theme_minimal()
-
-  ggsave("plot_first_na.jpg", device = "jpg", path = out_dir)
+  plot_first_na <- lineplot(first_nations, cols)
+  ggsave("plot_first_na.jpg", plot_first_na, device = "jpg", path = out_dir,
+         width = 12, height = 8)
 
 
-  #count the average value of variables
-  inuit_inc <- inuit |>
-    group_by(Income_2021) |> # nolint
-    summarize(count = n())
-
-  inuit_edu <- inuit |>
-    group_by(Education_2021) |> # nolint
-    summarize(count = n())
-
-  # count different labour force levels
-  inuit_labour <- inuit |>
-    group_by(Labour_Force_Activity_2021) |> # nolint
-    summarize(count = n())
-
-  # count different house levels
-  inuit_house <- inuit |>
-    group_by(Housing_2021) |> # nolint
-    summarize(count = n())
-
-
-  inuit_inc$variable <- "Income"
-  inuit_edu$variable <- "Education"
-  inuit_labour$variable <- "Labour Force"
-  inuit_house$variable <- "Housing"
-
-  inuit_inc <- inuit_inc |> rename(Index = Income_2021) # nolint
-  inuit_edu <- inuit_edu |> rename(Index = Education_2021) # nolint
-  inuit_labour <- inuit_labour |> rename(Index = Labour_Force_Activity_2021) # nolint
-  inuit_house <- inuit_house |> rename(Index = Housing_2021) # nolint
-
-  all_data_3 <- bind_rows(inuit_inc, inuit_edu, inuit_labour, inuit_house)
-
-  # Plot with a single ggplot call, which will create a legend automatically
-  plot_inuit <- ggplot(all_data_3, aes(x = Index, # nolint
-                                       y = count, color = variable)) + # nolint
-    geom_line() +  # The line color will be set by the 'variable' column
-    xlab("Index") +
-    ylab("Counts") +
-    ggtitle("Index of Different Variables of Inuit Community") +
-    scale_color_manual(values = c("Income" = "blue", "Education" = "red",
-                                  "Labour Force" = "yellow",
-                                  "Housing" = "green")) +
-    theme_minimal()
-
-  ggsave("plot_inuit.jpg", device = "jpg", path = out_dir)
+  plot_inuit <- lineplot(inuit, cols)
+  ggsave("plot_inuit.jpg", plot_inuit, device = "jpg", path = out_dir,
+         width = 12, height = 8)
 
 
   # plot the relationship between all variables
@@ -265,7 +87,8 @@ main <- function(input_dir, out_dir) {
   print(compair_plot)
   dev.off()
 
-  ggsave("compair_plot.jpg", device = "jpg", path = out_dir)
+  ggsave("compair_plot.jpg", device = "jpg", path = out_dir,
+         width = 12, height = 8)
 
 }
 
