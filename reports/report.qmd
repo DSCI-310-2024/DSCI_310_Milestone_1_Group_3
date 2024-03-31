@@ -8,10 +8,12 @@ format:
     pdf:
         toc: true
         toc-depth: 2
+bibliography: reference.bib
 execute: 
     echo: false
     warnings: false
 editor: source
+
 ---
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -28,6 +30,14 @@ library(GGally)
 Across Canada, we are able to evaluate the socio-economic health of communities by using the Community Well-Being (CWB) Index, which provides a unique perspective through which we may do so<sup>[1]</sup>. The Community Well-Being Index (CWB Index) is a comprehensive score that serves to reflect the overall well-being of each community<sup>[2]</sup>. It does this by incorporating factors such as education, income, labour force activity, and housing values. In addition to facilitating comparisons between communities of First Nations and Inuit, these scores also allow for comparisons to be made against a more general Canadian context.
 
 Our [dataset](https://open.canada.ca/data/en/dataset/56578f58-a775-44ea-9cc5-9bf7c78410e6) originates from Indigenous Services Canada. **How do these socio-economic factors influence CWB scores, and what can they reveal about community health disparities?** This is the question that our research investigates as we investigate the predictive power of these factors. The purpose of this project is to disentangle the intricate connections that exist between these indicators and the well-being of the community by making use of data obtained from the Census of Population conducted by Statistics Canada. The findings of this project could provide valuable insights that could be used to guide policy and intervention strategies. 
+
+## Methods
+
+The Python programming language [@R]
+and the following R packages were used to perform the analysis: 
+[@readr], [@ggplot2], [@ggpairs], [@GGally], [@dplyr], [@rsample],
+as well as the following data from official websites of Canadian government and departments: 
+[@community_well_being_index_2024], [@nccih_publications_2016], [@five_year_evaluation_plan_2019], [@well_being_measures_canada_2021]
 
 
 ## Data
@@ -111,7 +121,7 @@ Since there are only a few data points in first nation and inuit communities, ev
 
 ### General Relationship
 
-We use `ggpairs` from the `GGally` package to see how key variables are distributed and how they are related to each other. This gives us a full picture of possible linear correlations and points out any outliers or strange patterns.
+We use @ggpairs from the @GGally package to see how key variables are distributed and how they are related to each other. This gives us a full picture of possible linear correlations and points out any outliers or strange patterns.
 
 ![Correlations between different Variables](../results/compair_plot.jpg){#fig-compair_plot width=80%}
 
@@ -167,8 +177,3 @@ Future exploration:
 2. What role do technological advancements and digital access play in shaping the CWB scores, particularly in remote or underserved communities?
 
 ## Reference
-
-1. About the Community Well-Being Index. 31 Jan. 2024, www.sac-isc.gc.ca/eng/1421245446858/1557321415997.
-2. “NCCIH - National Collaborating Centre for Indigenous Health > Home > NCCIH PUBLICATIONS.” NCCIH, 15 June 2016, www.nccih.ca/495/Health_inequalities_and_the_social_determinants_of_Aboriginal_peoples__health_.nccih?id=46.
-3. Five-Year Evaluation Plan 2019-2020 to 2023-2024. 29 Oct. 2019, www.sac-isc.gc.ca/eng/1570114159516/1570114187006.
-4. Moving Forward on Well-being (Quality of Life) Measures in Canada. 12 July 2021, www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2021006-eng.html.
