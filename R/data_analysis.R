@@ -18,6 +18,8 @@ library(dplyr)
 library(yardstick)
 library(broom)
 library(rsample)
+library(G3package)
+
 
 # Parse command line arguments
 doc <- "
@@ -44,25 +46,9 @@ main <- function(input_dir, out_dir) {
   write_csv(train_data, file.path(out_dir, "train_data.csv"))
   write_csv(test_data, file.path(out_dir, "test_data.csv"))
 
-  lm_spec <- linear_reg() |>
-    set_engine("lm") |>
-    set_mode("regression")
-
-  lm_recipe <- recipe(CWB_2021 ~ Income_2021 +  Education_2021 +
-                        Housing_2021 + Labour_Force_Activity_2021,
-                      data = train_data)
-
-  lm_fit <- workflow() |>
-    add_recipe(lm_recipe) |>
-    add_model(lm_spec) |>
-    fit(data = train_data)
-
-  summary <- lm_fit |>
-    predict(test_data) |>
-    bind_cols(test_data) |>
-    metrics(truth = CWB_2021, estimate = .pred) # nolint
-
-  model <- tidy(lm_fit)
+  results <- run_lm_workflow(train_data, test_data)
+  summary <- results$test_summary
+  model  <- tidy(results$lm_fit)
 
   write_csv(model, file.path(out_dir, "model.csv"))
   write_csv(summary, file.path(out_dir, "summary.csv"))

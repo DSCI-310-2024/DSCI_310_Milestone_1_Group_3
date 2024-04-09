@@ -14,6 +14,8 @@
 library(readr)
 library(tidyverse)
 library(docopt)
+devtools::install_github("DSCI-310-2024/DSCI310_Group_3_Package")
+library(G3package)
 
 # Parse command line arguments
 doc <- "
@@ -30,8 +32,7 @@ main <- function(raw_data) {
                      "CWB_2021.csv")
 
   # Download and read the data
-  raw_data <- read_csv(data_url)
-
+  raw_data <- fetch_data(data_url, TRUE, ",")
   write.csv(raw_data, "raw_data.csv", row.names = FALSE)
   print(raw_data)
 }

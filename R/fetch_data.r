@@ -17,17 +17,21 @@
 #' fetch_data(data_url, TRUE, ",")
 #' # Specify the URL for the data
 fetch_data <- function(data_url, tfHeader, sepType) {
-    if (!is.string(data_url)) {
-        stop("Data URL must be a string")
-    } else if (!is.boolean(tfHeader)) {
-        stop("tfHeader must be a Boolean")
-    } else if (!is.string(sepType)) {
-        stop("sepType must be a string")
-    }
-
-  # Download and read the data
-  raw_data <- read.csv(data_url, header = tfHeader, sep = sepType)
-
-  # Return the data as a data frame
+  if (!is.character(data_url)) {
+    stop("Data URL must be a string", call. = FALSE)
+  }
+  if (!is.logical(tfHeader) || length(tfHeader) != 1) {
+    stop("tfHeader must be a Boolean", call. = FALSE)
+  }
+  if (!is.character(sepType)) {
+    stop("SepType must be a string", call. = FALSE)
+  }
+  
+  raw_data <- tryCatch({
+    utils::read.csv(data_url, header = tfHeader, sep = sepType)
+  }, error = function(e) {
+    stop("Failed to load data. Please check the URL and format.", call. = FALSE)
+  })
+  
   return(raw_data)
 }

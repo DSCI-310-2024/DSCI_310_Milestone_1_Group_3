@@ -13,9 +13,8 @@ library(docopt)
 library(ggplot2)
 library(dplyr)
 library(GGally)
-source("R/lineplot_function.R")
-
-
+library(devtools)
+library(G3package)
 doc <- "
 Usage:
 data_visualizing.R --input_dir=<input_dir> --out_dir=<out_dir>
@@ -44,10 +43,9 @@ main <- function(input_dir, out_dir) {
   # count the average value of variables
   # "Table 1: Mean values across Income, Education,
   # Housing, Labour Force and CWB Index"
-  table_mean <- data |>
-    summarize(across(Income_2021:CWB_2021, mean)) # nolint
 
-  write_csv(table_mean, file.path(out_dir, "table_mean.csv"))
+
+  calculate_and_export_means(data, out_dir, "table_mean.csv")
 
   # split the database with different community type
   non_indigenous <- data[data$Community_Type_2021

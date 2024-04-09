@@ -17,27 +17,27 @@
 run_lm_workflow <- function(train_data, test_data) {
   
   # Define linear regression specification
-  lm_spec <- tidymodels::linear_reg() %>%
-    tidymodels::set_engine("lm") %>%
-    tidymodels::set_mode("regression")
+  lm_spec <- parsnip::linear_reg() %>%
+             parsnip::set_engine("lm") %>%
+             tidymodels::set_mode("regression")
   
   # Define recipe
-  lm_recipe <- tidymodels::recipe(CWB_2021 ~ Income_2021 + Education_2021 +
+  lm_recipe <- recipes::recipe(CWB_2021 ~ Income_2021 + Education_2021 +
                                     Housing_2021 + Labour_Force_Activity_2021,
                                   data = train_data)
   
   # Create workflow
-  lm_fit <- tidymodels::workflow() %>%
-    tidymodels::add_recipe(lm_recipe) %>%
-    tidymodels::add_model(lm_spec) %>%
-    tidymodels::fit(data = train_data)
+  lm_fit <- workflows::workflow() %>%
+    workflows::add_recipe(lm_recipe) %>%
+    workflows::add_model(lm_spec) %>%
+    parsnip::fit(data = train_data)
   
   # Generate predictions and compute metrics for test data
   test_summary <- lm_fit %>%
-    tidymodels::predict(new_data = test_data) %>%
-    dplyr::bind_cols(test_data) %>%
-    tidymodels::metrics(truth = CWB_2021, estimate = .pred)
+                  stats::predict(new_data = test_data) %>%
+                  dplyr::bind_cols(test_data) %>%
+                  yardstick::metrics(truth = CWB_2021, estimate = .pred)
   
   # Return the test summary
-  return(test_summary)
+  return(list(test_summary = test_summary, lm_fit = lm_fit))
 }
