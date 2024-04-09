@@ -1,0 +1,905 @@
+CSD_Code_2021,CSD_Name_2021,Census_Population_2021,Income_2021,Education_2021,Housing_2021,Labour_Force_Activity_2021,CWB_2021,Community_Type_2021
+1001197,Mount Carmel-Mitchells Brook-St. Catherine's,382,81,61,95,84,80,Non-Indigenous Community
+1001308,Whiteway,351,79,59,100,94,83,Non-Indigenous Community
+1001325,Heart's Content,330,72,52,95,72,73,Non-Indigenous Community
+1001332,Winterton,436,74,48,98,70,72,Non-Indigenous Community
+1001339,"Division No.  1, Subd. G",1673,73,54,96,75,74,Non-Indigenous Community
+1001374,"Division No.  1, Subd. I",320,84,72,99,82,84,Non-Indigenous Community
+1001375,Bryant's Cove,343,71,46,100,73,73,Non-Indigenous Community
+1001385,Upper Island Cove,1401,73,56,96,71,74,Non-Indigenous Community
+1001409,Bay Roberts,5974,76,60,97,81,78,Non-Indigenous Community
+1001434,South River,674,81,66,97,82,81,Non-Indigenous Community
+1001446,Brigus,699,77,54,99,70,75,Non-Indigenous Community
+1001464,Avondale,584,77,59,98,79,78,Non-Indigenous Community
+1001490,"Division No.  1, Subd. R",264,62,55,90,53,65,Non-Indigenous Community
+1001494,Wabana,1815,67,48,96,65,69,Non-Indigenous Community
+1001505,Pouch Cove,2063,76,62,99,83,80,Non-Indigenous Community
+1001511,Logy Bay-Middle Cove-Outer Cove,2364,91,76,99,87,88,Non-Indigenous Community
+1001542,Mount Pearl,22477,81,67,98,84,83,Non-Indigenous Community
+1001551,Petty Harbour-Maddox Cove,947,78,63,98,84,81,Non-Indigenous Community
+1002008,St. Lawrence,1115,73,58,96,81,77,Non-Indigenous Community
+1002023,Winterland,398,81,69,99,78,82,Non-Indigenous Community
+1002036,Terrenceville,446,78,38,98,67,70,Non-Indigenous Community
+1002041,St. Bernard's-Jacques Fontaine,433,80,44,100,65,72,Non-Indigenous Community
+1003045,Rose Blanche-Harbour le Cou,344,71,45,96,68,70,Non-Indigenous Community
+1003801,Samiajij Miawpukek,953,72,53,93,69,72,First Nations Community
+1004006,"Division No.  4, Subd. B",1140,70,45,94,66,69,Non-Indigenous Community
+1004022,"Division No.  4, Subd. E",1467,64,40,92,65,65,Non-Indigenous Community
+1004037,Lourdes,502,67,47,96,66,69,Non-Indigenous Community
+1005014,Cormack,492,71,52,94,75,73,Non-Indigenous Community
+1005020,Humber Arm South,1537,74,52,96,80,76,Non-Indigenous Community
+1005024,Lark Harbour,508,73,46,94,77,73,Non-Indigenous Community
+1006019,Bishop's Falls,3082,75,52,97,75,75,Non-Indigenous Community
+1007001,"Division No.  7, Subd. M",1856,73,49,97,74,73,Non-Indigenous Community
+1007013,Clarenville,6704,79,63,98,84,81,Non-Indigenous Community
+1007016,Port Rexton,361,78,64,94,85,80,Non-Indigenous Community
+1007024,"Division No.  7, Subd. G",316,73,44,93,70,70,Non-Indigenous Community
+1007028,"Division No.  7, Subd. F",831,71,46,99,66,70,Non-Indigenous Community
+1007032,Musgravetown,561,70,58,100,67,74,Non-Indigenous Community
+1008033,Summerford,805,73,38,97,68,69,Non-Indigenous Community
+1008035,Twillingate,2121,72,50,98,70,73,Non-Indigenous Community
+1008036,"Division No.  8, Subd. G",409,68,43,98,59,67,Non-Indigenous Community
+1008040,Baytona,251,72,49,98,72,73,Non-Indigenous Community
+1008043,Embree,679,68,48,93,79,72,Non-Indigenous Community
+1008046,"Division No.  8, Subd. E",496,69,36,98,55,64,Non-Indigenous Community
+1008049,Point Leamington,574,73,49,92,69,71,Non-Indigenous Community
+1008060,Robert's Arm,722,73,51,97,70,73,Non-Indigenous Community
+1008061,Springdale,2965,73,49,96,77,74,Non-Indigenous Community
+1008069,King's Point,653,77,44,97,75,73,Non-Indigenous Community
+1008071,Burlington,304,67,52,96,73,72,Non-Indigenous Community
+1009007,Roddickton-Bide Arm,928,70,45,96,73,71,Non-Indigenous Community
+1009010,Trout River,508,64,39,92,70,66,Non-Indigenous Community
+1009012,Norris Point,602,79,51,93,74,74,Non-Indigenous Community
+1009021,"Division No.  9, Subd. C",2220,74,41,97,67,70,Non-Indigenous Community
+1009023,Anchor Point,305,81,40,98,54,69,Non-Indigenous Community
+1010011,Mary's Harbour,312,79,43,95,70,72,Non-Indigenous Community
+1010025,Happy Valley-Goose Bay,8040,84,64,96,88,83,Non-Indigenous Community
+1010801,Natuashish 2,856,68,34,57,73,58,First Nations Community
+1101002,Murray Harbour,282,79,59,96,83,79,Non-Indigenous Community
+1101003,Murray Harbour,628,76,59,94,86,79,Non-Indigenous Community
+1101035,Souris,1766,78,60,94,89,80,Non-Indigenous Community
+1101037,St. Peters,686,71,54,86,84,73,Non-Indigenous Community
+1101040,Eastern Kings,687,77,57,99,83,79,Non-Indigenous Community
+1101043,Morell,1209,75,64,95,84,79,Non-Indigenous Community
+1102019,North Rustico,327,83,59,96,85,81,Non-Indigenous Community
+1102043,Hunter River,390,72,71,94,90,82,Non-Indigenous Community
+1102055,Brackley,586,79,66,94,89,82,Non-Indigenous Community
+1102061,York,387,78,68,99,90,84,Non-Indigenous Community
+1102067,North Shore,2500,80,70,97,86,84,Non-Indigenous Community
+1102069,Winsloe North,337,77,65,97,87,82,Non-Indigenous Community
+1102070,Warren Grove,374,80,70,99,93,85,Non-Indigenous Community
+1103003,Kinkora,1285,81,63,97,86,82,Non-Indigenous Community
+1103005,Borden-Carleton,788,69,61,87,85,76,Non-Indigenous Community
+1103035,Lennox Island 1,308,73,48,82,80,71,First Nations Community
+1103039,Lot 11 and Area,617,72,49,97,82,75,Non-Indigenous Community
+1103040,Miscouche,849,74,62,95,87,80,Non-Indigenous Community
+1103052,Alberton,1301,74,52,94,87,77,Non-Indigenous Community
+1103053,St. Felix,314,75,48,98,84,76,Non-Indigenous Community
+1103059,Tignish,744,75,52,96,90,78,Non-Indigenous Community
+1202001,Argyle,7870,77,53,95,84,77,Non-Indigenous Community
+1202006,Yarmouth,6829,72,55,94,79,75,Non-Indigenous Community
+1203004,Digby,7242,71,54,92,77,74,Non-Indigenous Community
+1204010,Queens,10422,73,56,93,77,75,Non-Indigenous Community
+1205016,Middleton,1873,72,59,92,80,76,Non-Indigenous Community
+1206001,Lunenburg,25545,78,60,95,82,79,Non-Indigenous Community
+1206004,Bridgewater,8790,75,62,95,81,78,Non-Indigenous Community
+1206009,Chester,10693,79,61,95,81,79,Non-Indigenous Community
+1207001,"Kings, Subd. A",22355,75,60,96,84,79,Non-Indigenous Community
+1209034,Halifax,439819,81,73,95,85,84,Non-Indigenous Community
+1210001,"Colchester, Subd. C",12476,76,61,95,83,79,Non-Indigenous Community
+1211001,"Cumberland, Subd. A",3201,72,57,92,76,74,Non-Indigenous Community
+1211006,"Cumberland, Subd. B",6786,74,57,93,78,75,Non-Indigenous Community
+1211012,Oxford,1170,71,55,92,75,73,Non-Indigenous Community
+1212006,"Pictou, Subd. B",6137,76,59,95,82,78,Non-Indigenous Community
+1212011,"Pictou, Subd. C",8386,78,60,94,80,78,Non-Indigenous Community
+1213004,Guysborough,4585,73,50,94,75,73,Non-Indigenous Community
+1217020,Eskasoni 3,3521,56,53,82,66,64,First Nations Community
+1218006,"Victoria, Subd. A",2673,75,53,96,75,75,Non-Indigenous Community
+1301001,Saint Martins,1177,74,58,97,78,77,Non-Indigenous Community
+1302004,Campobello Island,949,74,58,94,71,74,Non-Indigenous Community
+1302006,West Isles,718,75,58,98,85,79,Non-Indigenous Community
+1302011,Pennfield,2222,76,58,94,82,78,Non-Indigenous Community
+1302018,St. George,1579,75,59,96,87,79,Non-Indigenous Community
+1302021,Saint Patrick,710,76,61,96,74,77,Non-Indigenous Community
+1302044,Dumbarton,346,73,58,99,78,77,Non-Indigenous Community
+1303006,Fredericton Junction,719,71,60,91,85,77,Non-Indigenous Community
+1303016,Maugerville,1772,77,66,96,89,82,Non-Indigenous Community
+1303018,Northfield,577,74,54,96,83,77,Non-Indigenous Community
+1304006,Hampstead,288,69,55,94,86,76,Non-Indigenous Community
+1304008,Wickham,409,73,57,96,79,76,Non-Indigenous Community
+1304011,Cambridge,684,77,57,93,74,75,Non-Indigenous Community
+1304013,Cambridge-Narrows,715,76,63,89,74,75,Non-Indigenous Community
+1304018,Waterborough,903,73,57,91,75,74,Non-Indigenous Community
+1304021,Canning,1028,79,60,95,80,79,Non-Indigenous Community
+1304022,Minto,2234,69,52,94,78,73,Non-Indigenous Community
+1305006,Hampton,2969,78,66,95,87,82,Non-Indigenous Community
+1305007,Hampton,4395,80,70,95,86,83,Non-Indigenous Community
+1305008,Rothesay,342,79,64,100,83,82,Non-Indigenous Community
+1305011,Westfield,2114,79,67,96,85,82,Non-Indigenous Community
+1305014,Kingston,3202,78,65,95,85,80,Non-Indigenous Community
+1305018,Norton,1410,73,62,90,85,77,Non-Indigenous Community
+1305021,Sussex,2579,76,61,94,85,79,Non-Indigenous Community
+1305023,Sussex Corner,1458,77,64,97,85,81,Non-Indigenous Community
+1305036,Kars,377,79,63,98,91,83,Non-Indigenous Community
+1305045,Rothesay,11977,90,77,97,88,88,Non-Indigenous Community
+1307002,Port Elgin,381,68,56,86,77,72,Non-Indigenous Community
+1307005,Beaubassin East / Beaubassin-est,6718,79,58,96,83,79,Non-Indigenous Community
+1307008,Sackville,1204,76,62,94,87,80,Non-Indigenous Community
+1307009,Sackville,6099,78,72,95,84,82,Non-Indigenous Community
+1307012,Dorchester,906,79,58,86,88,78,Non-Indigenous Community
+1307052,Shediac,7535,78,60,97,85,80,Non-Indigenous Community
+1308005,Bouctouche,2513,76,50,95,87,77,Non-Indigenous Community
+1308015,Richibucto 15,2062,68,43,73,61,61,First Nations Community
+1308017,Rexton,874,78,61,97,84,80,Non-Indigenous Community
+1308026,Carleton,764,78,39,95,76,72,Non-Indigenous Community
+1309001,Hardwicke,2203,77,45,95,79,74,Non-Indigenous Community
+1309004,Glenelg,1532,73,57,96,82,77,Non-Indigenous Community
+1309006,Chatham,527,80,63,96,88,82,Non-Indigenous Community
+1309027,Upper Miramichi,2175,71,55,93,73,73,Non-Indigenous Community
+1309028,Northesk,2169,75,59,95,80,78,Non-Indigenous Community
+1310002,New Maryland,4153,84,81,97,90,88,Non-Indigenous Community
+1310004,Manners Sutton,1920,77,66,97,84,81,Non-Indigenous Community
+1310012,Canterbury,320,71,65,97,81,79,Non-Indigenous Community
+1310019,Kingsclear 6,518,60,51,90,74,69,First Nations Community
+1310021,Queensbury,1237,79,64,96,82,80,Non-Indigenous Community
+1310024,Southampton,1497,74,59,93,82,77,Non-Indigenous Community
+1310026,Bright,3317,76,60,95,83,79,Non-Indigenous Community
+1310031,Saint Marys,5084,78,67,96,88,82,Non-Indigenous Community
+1311001,Richmond,1456,70,64,95,84,78,Non-Indigenous Community
+1311004,Woodstock,2219,77,67,96,88,82,Non-Indigenous Community
+1311008,Northampton,1875,74,64,95,87,80,Non-Indigenous Community
+1311024,Peel,1198,70,55,95,85,76,Non-Indigenous Community
+1311028,Kent,1966,73,56,94,82,76,Non-Indigenous Community
+1311031,Wicklow,1591,71,60,90,88,78,Non-Indigenous Community
+1312019,Grand Falls / Grand-Sault,5220,76,57,97,83,78,Non-Indigenous Community
+1313004,Saint-L�onard,858,77,57,97,89,80,Non-Indigenous Community
+1314017,Dalhousie,3223,73,59,96,75,76,Non-Indigenous Community
+1315011,Bathurst,12157,75,59,96,81,78,Non-Indigenous Community
+1315013,Pointe-Verte,865,78,51,94,80,76,Non-Indigenous Community
+1315026,Caraquet,1261,74,53,95,79,75,Non-Indigenous Community
+1315027,Bas-Caraquet,1311,74,41,95,79,72,Non-Indigenous Community
+1315038,Grande-Anse,731,73,51,97,80,75,Non-Indigenous Community
+1315040,Maisonnette,535,71,49,96,85,75,Non-Indigenous Community
+2402028,Chandler,7490,76,50,95,84,76,Non-Indigenous Community
+2405010,Shigawake,333,73,48,95,88,76,Non-Indigenous Community
+2405020,Hope Town,334,69,53,96,72,73,Non-Indigenous Community
+2405040,New Carlisle,1336,71,54,96,75,74,Non-Indigenous Community
+2405055,Saint-Sim�on,1207,77,59,97,88,80,Non-Indigenous Community
+2405065,Saint-Alphonse,711,73,56,99,80,77,Non-Indigenous Community
+2406055,Saint-Fran�ois-d'Assise,679,70,34,93,81,69,Non-Indigenous Community
+2407030,Saint-L�on-le-Grand,968,71,52,97,84,76,Non-Indigenous Community
+2407065,Saint-Alexandre-des-Lacs,298,71,47,98,75,73,Non-Indigenous Community
+2407085,Sayabec,1706,72,51,98,84,76,Non-Indigenous Community
+2407100,Saint-No�l,392,74,44,95,86,75,Non-Indigenous Community
+2408023,Sainte-F�licit�,1100,73,47,96,83,75,Non-Indigenous Community
+2408065,Saint-L�andre,375,71,52,96,77,74,Non-Indigenous Community
+2408073,Saint-Ulric,1567,78,58,97,87,80,Non-Indigenous Community
+2409005,La R�demption,384,66,34,94,74,67,Non-Indigenous Community
+2409025,Saint-Gabriel-de-Rimouski,1177,73,56,94,87,77,Non-Indigenous Community
+2409065,Price,1729,71,50,95,85,75,Non-Indigenous Community
+2410070,Saint-Fabien,1834,74,55,94,82,76,Non-Indigenous Community
+2410075,Saint-Eug�ne-de-Ladri�re,413,72,53,95,86,77,Non-Indigenous Community
+2411030,Sainte-Fran�oise,383,70,52,95,87,76,Non-Indigenous Community
+2411040,Trois-Pistoles,3115,76,56,96,85,78,Non-Indigenous Community
+2412010,Saint-Hubert-de-Rivi�re-du-Loup,1412,74,54,94,85,77,Non-Indigenous Community
+2413055,Biencourt,433,74,49,99,86,77,Non-Indigenous Community
+2413085,Saint-Elz�ar-de-T�miscouata,311,74,41,91,85,73,Non-Indigenous Community
+2414005,Mont-Carmel,1160,73,52,99,83,77,Non-Indigenous Community
+2414018,Saint-Pascal,3530,75,57,97,88,79,Non-Indigenous Community
+2414040,Saint-Andr�-de-Kamouraska,658,77,67,97,90,83,Non-Indigenous Community
+2415030,Saint-Aim�-des-Lacs,1158,78,58,96,85,79,Non-Indigenous Community
+2416048,Les �boulements,1465,81,63,96,91,83,Non-Indigenous Community
+2417005,Saint-Omer,294,74,47,95,87,76,Non-Indigenous Community
+2417025,Sainte-F�licit�,350,69,35,95,89,72,Non-Indigenous Community
+2417030,Sainte-Perp�tue,1715,71,41,95,84,73,Non-Indigenous Community
+2417060,Sainte-Louise,674,73,57,99,87,79,Non-Indigenous Community
+2417078,L'Islet,3803,77,56,96,88,79,Non-Indigenous Community
+2418015,Saint-Fabien-de-Panet,945,71,49,95,81,74,Non-Indigenous Community
+2418035,Sainte-Euph�mie-sur-Rivi�re-du-Sud,338,73,47,92,82,73,Non-Indigenous Community
+2418045,Cap-Saint-Ignace,3099,76,55,98,90,79,Non-Indigenous Community
+2418060,Saint-Fran�ois-de-la-Rivi�re-du-Sud,1580,75,54,96,90,79,Non-Indigenous Community
+2419010,Notre-Dame-Auxiliatrice-de-Buckland,767,76,50,95,86,77,Non-Indigenous Community
+2419025,Saint-Malachie,1667,75,54,97,91,79,Non-Indigenous Community
+2419055,Sainte-Claire,3526,78,59,98,91,81,Non-Indigenous Community
+2419068,Saint-Henri,5813,78,61,99,95,83,Non-Indigenous Community
+2419070,Honfleur,881,75,57,98,89,80,Non-Indigenous Community
+2420020,Saint-Laurent-de-l'�le-d'Orl�ans,1607,86,72,95,90,86,Non-Indigenous Community
+2421010,Saint-Ferr�ol-les-Neiges,3806,87,69,97,89,85,Non-Indigenous Community
+2421025,Beaupr�,4117,82,64,96,88,83,Non-Indigenous Community
+2421035,Ch�teau-Richer,4425,78,61,96,90,81,Non-Indigenous Community
+2422005,Sainte-Catherine-de-la-Jacques-Cartier,8442,80,65,97,91,83,Non-Indigenous Community
+2422030,Lac-Delage,771,84,82,97,91,88,Non-Indigenous Community
+2422035,Stoneham-et-Tewkesbury,9682,83,70,97,93,86,Non-Indigenous Community
+2422045,Sainte-Brigitte-de-Laval,8468,80,68,98,93,85,Non-Indigenous Community
+2423027,Qu�bec,549459,81,71,96,89,84,Non-Indigenous Community
+2423072,Saint-Augustin-de-Desmaures,19907,89,77,98,90,89,Non-Indigenous Community
+2425213,L�vis,149683,83,69,98,91,85,Non-Indigenous Community
+2426030,Sainte-Marie,13134,79,63,98,92,83,Non-Indigenous Community
+2426070,Saint-Lambert-de-Lauzon,6817,80,66,98,92,84,Non-Indigenous Community
+2427043,Saint-Joseph-de-Beauce,5014,77,60,98,91,81,Non-Indigenous Community
+2427055,Saint-Jules,547,72,50,95,92,77,Non-Indigenous Community
+2428060,Saint-Luc-de-Bellechasse,449,73,38,97,83,73,Non-Indigenous Community
+2428065,Sainte-Sabine,343,73,53,98,88,78,Non-Indigenous Community
+2429050,Saint-Ren�,946,78,59,95,91,81,Non-Indigenous Community
+2429057,Saint-C�me--Lini�re,3278,74,51,98,88,78,Non-Indigenous Community
+2429065,Saint-Philibert,379,74,56,98,89,79,Non-Indigenous Community
+2429112,Saint-�phrem-de-Beauce,2323,75,47,96,93,78,Non-Indigenous Community
+2430040,Milan,318,69,57,97,81,76,Non-Indigenous Community
+2430050,Sainte-C�cile-de-Whitton,853,73,49,95,90,77,Non-Indigenous Community
+2430100,Saint-Romain,711,77,51,97,92,79,Non-Indigenous Community
+2430110,Stratford,1036,76,63,97,81,79,Non-Indigenous Community
+2431040,Irlande,897,72,58,98,89,79,Non-Indigenous Community
+2431095,Saint-Adrien-d'Irlande,395,70,52,93,94,77,Non-Indigenous Community
+2431100,Saint-Jean-de-Br�beuf,351,72,55,94,97,80,Non-Indigenous Community
+2431130,Sacr�-Coeur-de-J�sus,536,74,51,95,86,76,Non-Indigenous Community
+2432050,Saint-Pierre-Baptiste,560,71,56,94,87,77,Non-Indigenous Community
+2432072,Laurierville,1313,73,56,97,92,79,Non-Indigenous Community
+2432085,Villeroy,488,70,45,96,92,76,Non-Indigenous Community
+2433007,Saint-Sylvestre,1019,74,58,98,91,80,Non-Indigenous Community
+2433035,Saint-Gilles,2910,76,56,96,92,80,Non-Indigenous Community
+2433040,Dosquet,935,73,46,93,92,76,Non-Indigenous Community
+2433065,Saint-Janvier-de-Joly,1079,75,48,96,89,77,Non-Indigenous Community
+2433085,Notre-Dame-du-Sacr�-Coeur-d'Issoudun,867,78,54,98,95,81,Non-Indigenous Community
+2433095,Saint-Antoine-de-Tilly,1682,82,71,98,89,85,Non-Indigenous Community
+2433123,Leclercville,491,74,59,95,86,79,Non-Indigenous Community
+2434065,Saint-Marc-des-Carri�res,2901,75,55,98,87,79,Non-Indigenous Community
+2434097,Saint-Alban,1196,74,54,93,88,77,Non-Indigenous Community
+2435050,Sainte-Th�cle,2415,71,54,96,83,76,Non-Indigenous Community
+2435055,Trois-Rives,512,79,52,97,78,77,Non-Indigenous Community
+2436033,Shawinigan,49620,75,57,97,84,78,Non-Indigenous Community
+2437210,Batiscan,958,76,64,96,83,80,Non-Indigenous Community
+2437215,Sainte-Genevi�ve-de-Batiscan,1028,78,56,95,89,80,Non-Indigenous Community
+2437225,Saint-Luc-de-Vincennes,519,78,60,92,86,79,Non-Indigenous Community
+2437235,Notre-Dame-du-Mont-Carmel,6121,77,59,98,87,80,Non-Indigenous Community
+2437250,Saint-Prosper-de-Champlain,482,75,56,96,85,78,Non-Indigenous Community
+2438028,Manseau,807,67,45,93,83,72,Non-Indigenous Community
+2438040,Sainte-Sophie-de-L�vrard,704,71,50,93,82,74,Non-Indigenous Community
+2438047,Fortierville,660,71,55,97,85,77,Non-Indigenous Community
+2438055,Parisville,396,71,43,100,92,77,Non-Indigenous Community
+2439010,Ham-Nord,857,70,51,97,87,76,Non-Indigenous Community
+2439015,Notre-Dame-de-Ham,414,75,59,92,86,78,Non-Indigenous Community
+2439020,Saint-R�mi-de-Tingwick,446,73,57,99,88,79,Non-Indigenous Community
+2439077,Warwick,4729,76,55,97,89,79,Non-Indigenous Community
+2439097,Kingsey Falls,1986,85,61,98,92,84,Non-Indigenous Community
+2439130,Saint-Samuel,765,77,57,95,88,79,Non-Indigenous Community
+2439152,Daveluyville,2360,73,49,97,85,76,Non-Indigenous Community
+2440010,Saint-Adrien,522,68,60,96,83,77,Non-Indigenous Community
+2441080,Scotstown,459,70,41,95,82,72,Non-Indigenous Community
+2441085,Lingwick,456,73,59,91,82,76,Non-Indigenous Community
+2441098,Weedon,2667,71,48,94,85,75,Non-Indigenous Community
+2442045,Lawrenceville,618,72,46,97,88,76,Non-Indigenous Community
+2442100,Saint-Claude,1141,78,57,95,88,79,Non-Indigenous Community
+2442110,Cleveland,1581,75,56,95,90,79,Non-Indigenous Community
+2443027,Sherbrooke,172950,78,67,96,88,82,Non-Indigenous Community
+2444003,Saint-Malo,514,73,48,92,94,77,Non-Indigenous Community
+2444010,East Hereford,282,73,50,89,87,74,Non-Indigenous Community
+2444023,Dixville,732,69,53,94,89,76,Non-Indigenous Community
+2444055,Sainte-Edwidge-de-Clifton,546,74,51,95,92,78,Non-Indigenous Community
+2444080,Waterville,2307,74,63,94,92,81,Non-Indigenous Community
+2445035,Ayer's Cliff,1180,82,64,95,90,83,Non-Indigenous Community
+2445050,North Hatley,675,88,81,93,88,87,Non-Indigenous Community
+2445055,Hatley,2230,84,76,95,90,86,Non-Indigenous Community
+2445105,Stukely-Sud,1142,79,62,94,86,80,Non-Indigenous Community
+2446017,Saint-Armand,1228,78,60,96,87,81,Non-Indigenous Community
+2446035,Bedford,2558,74,55,95,86,77,Non-Indigenous Community
+2446058,Sutton,4548,87,73,96,85,85,Non-Indigenous Community
+2446070,Brome,341,75,64,90,86,79,Non-Indigenous Community
+2446080,Cowansville,15234,75,57,97,87,79,Non-Indigenous Community
+2446100,Notre-Dame-de-Stanbridge,691,74,55,89,93,78,Non-Indigenous Community
+2448010,Roxton Falls,1322,71,47,97,89,76,Non-Indigenous Community
+2448045,Saint-Th�odore-d'Acton,1564,72,51,96,92,78,Non-Indigenous Community
+2449005,Saint-F�lix-de-Kingsey,1493,72,50,95,86,76,Non-Indigenous Community
+2449030,Saint-Lucien,1801,74,52,97,89,78,Non-Indigenous Community
+2449040,Wickham,2587,73,52,97,91,79,Non-Indigenous Community
+2449080,Notre-Dame-du-Bon-Conseil,885,79,47,94,92,78,Non-Indigenous Community
+2449100,Saint-Edmond-de-Grantham,804,76,58,99,88,81,Non-Indigenous Community
+2449105,Saint-Eug�ne,1139,73,50,94,92,77,Non-Indigenous Community
+2450005,Sainte-Eulalie,984,78,52,97,90,79,Non-Indigenous Community
+2450023,Saint-Wenceslas,1167,75,54,98,89,79,Non-Indigenous Community
+2450042,Saint-L�onard-d'Aston,2530,74,58,96,94,81,Non-Indigenous Community
+2450072,Nicolet,8620,78,62,97,90,82,Non-Indigenous Community
+2450085,La Visitation-de-Yamaska,295,74,52,93,84,76,Non-Indigenous Community
+2450090,Saint-Z�phirin-de-Courval,707,76,57,94,90,79,Non-Indigenous Community
+2451030,Saint-S�v�re,337,75,69,100,86,83,Non-Indigenous Community
+2451040,Sainte-Ursule,1355,73,49,96,87,76,Non-Indigenous Community
+2451090,Saint-�tienne-des-Gr�s,4539,79,65,97,89,82,Non-Indigenous Community
+2452075,Saint-Cl�ophas-de-Brandon,254,72,64,89,88,78,Non-Indigenous Community
+2452095,Mandeville,2363,75,50,96,82,76,Non-Indigenous Community
+2453020,Saint-Robert,1813,77,50,98,86,78,Non-Indigenous Community
+2454008,Saint-Pie,5847,77,55,96,91,80,Non-Indigenous Community
+2454035,La Pr�sentation,2638,80,60,99,92,83,Non-Indigenous Community
+2454090,Saint-Simon,1386,75,55,96,91,79,Non-Indigenous Community
+2454095,Sainte-H�l�ne-de-Bagot,1696,77,50,98,91,79,Non-Indigenous Community
+2454100,Saint-Hugues,1340,75,56,96,92,80,Non-Indigenous Community
+2455015,Saint-Paul-d'Abbotsford,2886,76,54,97,90,79,Non-Indigenous Community
+2455030,Sainte-Ang�le-de-Monnoir,1828,76,57,94,91,79,Non-Indigenous Community
+2456030,Saint-Valentin,418,71,56,98,93,80,Non-Indigenous Community
+2456060,Sainte-Anne-de-Sabrevois,2143,78,56,96,90,80,Non-Indigenous Community
+2456083,Saint-Jean-sur-Richelieu,97873,79,61,97,89,81,Non-Indigenous Community
+2456097,Mont-Saint-Gr�goire,3136,80,65,96,89,82,Non-Indigenous Community
+2457005,Chambly,31444,83,69,98,92,85,Non-Indigenous Community
+2457010,Carignan,11740,88,69,97,92,86,Non-Indigenous Community
+2457020,Saint-Basile-le-Grand,17053,84,72,98,93,87,Non-Indigenous Community
+2457033,Saint-Jean-Baptiste,3179,78,53,96,91,79,Non-Indigenous Community
+2457040,Beloeil,24104,82,68,97,92,85,Non-Indigenous Community
+2457057,Saint-Charles-sur-Richelieu,1735,84,60,98,92,83,Non-Indigenous Community
+2459015,Saint-Amable,13322,77,54,96,91,80,Non-Indigenous Community
+2459020,Varennes,21198,84,69,98,92,86,Non-Indigenous Community
+2459025,Verch�res,5759,81,63,97,90,83,Non-Indigenous Community
+2460013,Repentigny,86100,80,64,96,89,83,Non-Indigenous Community
+2460020,Saint-Sulpice,3360,80,59,98,91,82,Non-Indigenous Community
+2461013,Crabtree,4155,76,60,95,89,80,Non-Indigenous Community
+2461040,Saint-Ambroise-de-Kildare,4090,77,60,98,90,81,Non-Indigenous Community
+2462065,Saint-C�me,2583,75,53,96,77,75,Non-Indigenous Community
+2462080,Saint-Z�non,1317,78,54,97,79,77,Non-Indigenous Community
+2462085,Saint-Michel-des-Saints,2496,77,49,96,78,75,Non-Indigenous Community
+2463035,Saint-Roch-de-l'Achigan,5453,77,56,97,89,80,Non-Indigenous Community
+2463048,Saint-Lin--Laurentides,24030,73,52,96,88,77,Non-Indigenous Community
+2463055,Saint-Calixte,6792,72,49,94,81,74,Non-Indigenous Community
+2464008,Terrebonne,119944,80,63,97,90,82,Non-Indigenous Community
+2464015,Mascouche,51183,80,64,98,91,83,Non-Indigenous Community
+2466058,C�te-Saint-Luc,34504,84,77,91,85,84,Non-Indigenous Community
+2466097,Pointe-Claire,33488,86,78,96,88,87,Non-Indigenous Community
+2467020,Candiac,22997,92,77,98,90,89,Non-Indigenous Community
+2467040,Saint-Isidore,2769,79,59,96,91,81,Non-Indigenous Community
+2468010,Hemmingford,829,73,52,97,92,78,Non-Indigenous Community
+2468040,Saint-Jacques-le-Mineur,1766,79,59,96,92,81,Non-Indigenous Community
+2469005,Havelock,756,72,55,92,81,75,Non-Indigenous Community
+2469010,Franklin,1635,76,57,94,87,78,Non-Indigenous Community
+2469017,Saint-Chrysostome,2582,73,47,97,87,76,Non-Indigenous Community
+2471033,Les Coteaux,5643,78,60,98,91,82,Non-Indigenous Community
+2471040,Coteau-du-Lac,7473,83,64,98,91,84,Non-Indigenous Community
+2471065,Notre-Dame-de-l'�le-Perrot,11427,85,73,98,90,86,Non-Indigenous Community
+2471070,Pincourt,14751,80,68,97,89,84,Non-Indigenous Community
+2471090,Vaudreuil-sur-le-Lac,1361,89,76,98,87,87,Non-Indigenous Community
+2471105,Saint-Lazare,22354,85,73,97,91,86,Non-Indigenous Community
+2471110,Sainte-Marthe,1014,83,58,93,92,82,Non-Indigenous Community
+2472020,Pointe-Calumet,6281,76,53,96,88,78,Non-Indigenous Community
+2472043,Saint-Placide,1784,81,61,97,85,81,Non-Indigenous Community
+2473025,Lorraine,9502,91,78,97,89,89,Non-Indigenous Community
+2475017,Saint-J�r�me,80213,76,57,97,87,79,Non-Indigenous Community
+2475028,Sainte-Sophie,18080,76,55,97,89,79,Non-Indigenous Community
+2476008,Saint-Andr�-d'Argenteuil,3053,76,58,97,86,79,Non-Indigenous Community
+2476030,Mille-Isles,1721,77,65,97,82,80,Non-Indigenous Community
+2476035,Wentworth,682,87,66,95,86,84,Non-Indigenous Community
+2476055,Grenville,1816,74,55,95,86,78,Non-Indigenous Community
+2477022,Sainte-Ad�le,14010,82,66,96,85,82,Non-Indigenous Community
+2477030,Piedmont,3476,86,71,96,84,84,Non-Indigenous Community
+2477065,Saint-Adolphe-d'Howard,3824,84,65,94,82,81,Non-Indigenous Community
+2478005,Val-Morin,3123,77,67,96,84,81,Non-Indigenous Community
+2478042,Ivry-sur-le-Lac,391,89,71,95,91,87,Non-Indigenous Community
+2478060,Arundel,578,76,60,95,81,78,Non-Indigenous Community
+2478100,Val-des-Lacs,750,76,59,94,84,78,Non-Indigenous Community
+2478102,Mont-Tremblant,10992,85,63,97,83,82,Non-Indigenous Community
+2478120,Labelle,2765,78,52,97,86,78,Non-Indigenous Community
+2479025,Kiamika,790,74,56,94,84,77,Non-Indigenous Community
+2479097,Ferme-Neuve,2716,73,49,96,83,75,Non-Indigenous Community
+2480005,Fassett,453,74,53,98,77,75,Non-Indigenous Community
+2480010,Montebello,934,78,59,98,84,80,Non-Indigenous Community
+2480015,Notre-Dame-de-Bonsecours,285,80,55,84,93,78,Non-Indigenous Community
+2480027,Saint-Andr�-Avellin,3562,76,54,96,81,76,Non-Indigenous Community
+2480070,Saint-Sixte,490,77,52,90,81,75,Non-Indigenous Community
+2480078,Ripon,1735,78,63,95,83,80,Non-Indigenous Community
+2480090,Montpellier,1112,75,49,93,73,72,Non-Indigenous Community
+2480103,Ch�n�ville,848,69,44,94,81,72,Non-Indigenous Community
+2480110,Namur,633,66,42,95,77,70,Non-Indigenous Community
+2481017,Gatineau,291041,81,67,96,87,83,Non-Indigenous Community
+2482015,Val-des-Monts,13328,82,61,97,88,82,Non-Indigenous Community
+2482020,Cantley,11449,86,70,97,91,86,Non-Indigenous Community
+2482035,La P�che,8636,81,64,96,88,82,Non-Indigenous Community
+2483050,Bouchette,695,73,56,93,83,76,Non-Indigenous Community
+2483055,Sainte-Th�r�se-de-la-Gatineau,588,80,50,95,80,76,Non-Indigenous Community
+2484005,Bristol,1199,75,57,93,82,77,Non-Indigenous Community
+2484045,Thorne,528,72,54,83,74,71,Non-Indigenous Community
+2484060,Fort-Coulonge,1312,72,46,93,78,72,Non-Indigenous Community
+2484070,Waltham,387,72,55,92,79,74,Non-Indigenous Community
+2485060,Latulipe-et-Gaboury,320,73,40,97,75,71,Non-Indigenous Community
+2485095,Gu�rin,333,76,48,91,89,76,Non-Indigenous Community
+2485100,N�d�lec,340,73,59,93,87,78,Non-Indigenous Community
+2487015,Roquemaure,409,74,45,95,87,76,Non-Indigenous Community
+2487025,Palmarolle,1386,79,54,98,91,80,Non-Indigenous Community
+2487050,Authier,290,75,45,95,82,74,Non-Indigenous Community
+2487058,Macamic,2744,77,51,96,84,77,Non-Indigenous Community
+2487075,Clerval,373,75,52,96,77,75,Non-Indigenous Community
+2487080,La Reine,307,76,47,91,80,74,Non-Indigenous Community
+2487085,Dupuy,940,79,51,94,91,79,Non-Indigenous Community
+2487090,La Sarre,7358,79,53,97,86,78,Non-Indigenous Community
+2487100,Authier-Nord,288,75,52,97,79,76,Non-Indigenous Community
+2488030,La Corne,778,82,58,96,91,82,Non-Indigenous Community
+2488040,Saint-Marc-de-Figuery,868,89,60,96,89,83,Non-Indigenous Community
+2488045,La Motte,478,78,58,96,89,80,Non-Indigenous Community
+2488050,Saint-Mathieu-d'Harricana,770,85,61,97,92,83,Non-Indigenous Community
+2488060,Saint-F�lix-de-Dalquier,1026,77,48,99,91,79,Non-Indigenous Community
+2488065,Saint-Dominique-du-Rosaire,434,77,40,95,81,73,Non-Indigenous Community
+2488070,Berry,535,74,37,90,87,72,Non-Indigenous Community
+2489008,Val-d'Or,32752,83,57,96,89,81,Non-Indigenous Community
+2489802,Kitcisakik,257,57,18,65,81,55,First Nations Community
+2489804,Lac Simon,1285,54,28,60,64,51,First Nations Community
+2490012,La Tuque,11129,77,55,95,83,78,Non-Indigenous Community
+2490802,Communaut� de Wemotaci,1142,58,34,63,78,59,First Nations Community
+2490804,Obedjiwan 28,1991,55,21,73,71,55,First Nations Community
+2491005,Lac-Bouchette,1183,74,48,95,76,73,Non-Indigenous Community
+2491010,Saint-Andr�-du-Lac-Saint-Jean,453,74,51,94,89,77,Non-Indigenous Community
+2491030,Sainte-Hedwidge,870,77,57,99,83,79,Non-Indigenous Community
+2492030,Albanel,2181,77,55,97,90,80,Non-Indigenous Community
+2492045,Saint-Thomas-Didyme,703,75,44,98,77,73,Non-Indigenous Community
+2492055,Girardville,1018,75,50,97,87,77,Non-Indigenous Community
+2492065,Saint-Eug�ne-d'Argentenay,487,74,53,94,88,77,Non-Indigenous Community
+2493012,M�tabetchouan--Lac-�-la-Croix,4121,77,62,98,88,81,Non-Indigenous Community
+2493055,Labrecque,1328,78,49,96,86,78,Non-Indigenous Community
+2493060,Lamarche,476,77,45,97,77,74,Non-Indigenous Community
+2493065,L'Ascension-de-Notre-Seigneur,2079,73,53,97,86,77,Non-Indigenous Community
+2493070,Saint-Henri-de-Taillon,803,79,62,96,80,79,Non-Indigenous Community
+2494210,L'Anse-Saint-Jean,1301,77,55,97,80,77,Non-Indigenous Community
+2494260,Saint-Charles-de-Bourget,784,76,63,97,85,80,Non-Indigenous Community
+2495005,Tadoussac,814,75,55,93,81,76,Non-Indigenous Community
+2495018,Les Bergeronnes,619,76,59,94,88,79,Non-Indigenous Community
+2495802,Essipit,310,78,57,99,85,80,First Nations Community
+2496020,Baie-Comeau,20687,82,60,96,88,81,Non-Indigenous Community
+2496030,Pointe-aux-Outardes,1434,82,63,95,86,82,Non-Indigenous Community
+2496035,Chute-aux-Outardes,1391,77,39,96,86,74,Non-Indigenous Community
+2496040,Ragueneau,1314,76,46,96,80,74,Non-Indigenous Community
+2498005,Blanc-Sablon,1122,82,49,96,81,77,Non-Indigenous Community
+2498010,Bonne-Esp�rance,692,76,31,97,78,71,Non-Indigenous Community
+2498040,Havre-Saint-Pierre,3337,84,57,97,88,81,Non-Indigenous Community
+2498806,Nutashkuan,915,71,18,70,82,60,First Nations Community
+2499100,Tasiujaq,420,65,17,68,79,57,Inuit Community
+2499115,Quaqtaq,453,68,29,68,83,62,Inuit Community
+2499130,Kangiqsujuaq,837,73,36,74,84,67,Inuit Community
+2499135,Salluit,1580,67,22,66,74,57,Inuit Community
+2499140,Ivujivik,412,64,20,72,76,58,Inuit Community
+2499804,Mistissini,3731,73,39,79,83,69,First Nations Community
+2499808,Nemaska,832,72,41,79,87,70,First Nations Community
+2499818,Ouj�-Bougoumou,797,72,47,77,82,69,First Nations Community
+3501011,South Stormont,13570,81,64,96,87,82,Non-Indigenous Community
+3501050,North Glengarry,10144,77,59,95,85,79,Non-Indigenous Community
+3502001,East Hawkesbury,3418,79,64,93,87,81,Non-Indigenous Community
+3502008,Hawkesbury,10194,75,53,95,78,75,Non-Indigenous Community
+3502010,Champlain,8665,81,64,97,85,82,Non-Indigenous Community
+3507004,Edwardsburgh/Cardinal,7505,80,63,95,84,80,Non-Indigenous Community
+3507017,Front of Yonge,2595,79,61,94,85,80,Non-Indigenous Community
+3507042,Athens,3042,79,62,97,84,80,Non-Indigenous Community
+3507065,North Grenville,17964,84,70,96,87,84,Non-Indigenous Community
+3509001,Montague,3914,81,63,95,84,81,Non-Indigenous Community
+3511005,Loyalist,17943,82,67,96,85,83,Non-Indigenous Community
+3512001,Tyendinaga,4538,79,65,97,85,81,Non-Indigenous Community
+3512002,Deseronto,1747,71,51,90,76,72,Non-Indigenous Community
+3512048,Tudor and Cashel,740,70,46,95,68,70,Non-Indigenous Community
+3512061,Bancroft,4065,74,55,93,77,75,Non-Indigenous Community
+3512065,Carlow/Mayo,953,76,54,94,80,76,Non-Indigenous Community
+3514014,Cramahe,6509,80,60,95,84,80,Non-Indigenous Community
+3514021,Cobourg,20519,82,66,96,82,82,Non-Indigenous Community
+3514024,Alnwick/Haldimand,7473,85,65,96,85,83,Non-Indigenous Community
+3514027,Alderville First Nation,542,69,55,92,73,72,First Nations Community
+3515003,Asphodel-Norwood,4658,77,62,96,84,80,Non-Indigenous Community
+3515005,Otonabee-South Monaghan,7087,82,66,97,85,82,Non-Indigenous Community
+3515013,Cavan Monaghan,10016,84,66,97,86,83,Non-Indigenous Community
+3515019,Curve Lake First Nation 35,1244,67,56,90,71,71,First Nations Community
+3515023,Douro-Dummer,7632,83,67,96,84,83,Non-Indigenous Community
+3516010,Kawartha Lakes,79247,81,61,96,82,80,Non-Indigenous Community
+3518009,Whitby,138501,85,73,97,86,85,Non-Indigenous Community
+3518029,Uxbridge,21556,88,71,97,88,86,Non-Indigenous Community
+3519044,Whitchurch-Stouffville,49864,85,73,97,87,85,Non-Indigenous Community
+3519049,King,27333,93,73,97,86,87,Non-Indigenous Community
+3519054,East Gwillimbury,34637,83,71,97,85,84,Non-Indigenous Community
+3519070,Georgina,47642,81,63,96,85,81,Non-Indigenous Community
+3520005,Toronto,2794356,86,74,91,83,83,Non-Indigenous Community
+3522008,Amaranth,4327,81,63,94,88,81,Non-Indigenous Community
+3523008,Guelph,143740,82,72,95,86,84,Non-Indigenous Community
+3523050,Wellington North,12431,75,53,95,87,78,Non-Indigenous Community
+3524001,Oakville,213759,93,81,97,85,89,Non-Indigenous Community
+3525005,Hamilton,569353,81,66,94,83,81,Non-Indigenous Community
+3526003,Fort Erie,32901,79,64,96,80,80,Non-Indigenous Community
+3526014,Wainfleet,6887,81,64,96,85,82,Non-Indigenous Community
+3526021,West Lincoln,15454,81,64,96,87,82,Non-Indigenous Community
+3526037,Thorold,23816,76,65,96,81,80,Non-Indigenous Community
+3526043,Niagara Falls,94415,76,65,96,77,79,Non-Indigenous Community
+3526047,Niagara-on-the-Lake,19088,88,73,97,80,84,Non-Indigenous Community
+3526053,St. Catharines,136803,78,66,96,81,80,Non-Indigenous Community
+3530004,North Dumfries,10619,86,69,97,89,86,Non-Indigenous Community
+3530035,Woolwich,26999,84,64,96,90,84,Non-Indigenous Community
+3531013,Perth South,3776,84,65,97,90,84,Non-Indigenous Community
+3531016,St. Marys,7386,81,65,97,86,82,Non-Indigenous Community
+3531030,Perth East,12595,77,50,95,91,78,Non-Indigenous Community
+3531040,North Perth,15538,77,56,96,89,79,Non-Indigenous Community
+3532045,Blandford-Blenheim,7565,83,63,96,89,83,Non-Indigenous Community
+3534021,St. Thomas,42840,77,62,96,84,80,Non-Indigenous Community
+3534042,West Elgin,5060,76,58,93,84,78,Non-Indigenous Community
+3536029,Moravian 47,328,67,56,83,77,71,First Nations Community
+3537013,Kingsville,22119,81,62,97,85,81,Non-Indigenous Community
+3537039,Windsor,229660,76,66,93,77,78,Non-Indigenous Community
+3538018,Oil Springs,647,82,55,96,88,80,Non-Indigenous Community
+3538031,Point Edward,1930,84,68,96,83,83,Non-Indigenous Community
+3540005,South Huron,10063,79,58,96,86,80,Non-Indigenous Community
+3540025,Central Huron,7799,80,60,97,87,81,Non-Indigenous Community
+3540050,Morris-Turnberry,3590,76,56,91,91,79,Non-Indigenous Community
+3540063,Ashfield-Colborne-Wawanosh,5884,81,58,94,86,80,Non-Indigenous Community
+3541024,Kincardine,12268,88,67,96,85,84,Non-Indigenous Community
+3541045,Saugeen Shores,15908,90,71,97,85,86,Non-Indigenous Community
+3541055,South Bruce Peninsula,9137,80,62,96,83,80,Non-Indigenous Community
+3542004,West Grey,13131,78,58,95,86,79,Non-Indigenous Community
+3542037,Chatsworth,7080,76,59,94,84,78,Non-Indigenous Community
+3543042,Barrie,147829,80,67,97,85,82,Non-Indigenous Community
+3543064,Wasaga Beach,24862,79,60,98,80,79,Non-Indigenous Community
+3544027,Lake of Bays,3759,86,70,96,83,84,Non-Indigenous Community
+3546018,Algonquin Highlands,2588,85,66,98,79,82,Non-Indigenous Community
+3547008,Greater Madawaska,2864,83,65,95,81,81,Non-Indigenous Community
+3547030,Madawaska Valley,3927,76,58,95,80,77,Non-Indigenous Community
+3547033,"Killaloe, Hagarty and Richards",2410,76,62,93,80,78,Non-Indigenous Community
+3547037,Pikwakanagan (Golden Lake 39),490,63,54,89,77,71,First Nations Community
+3547048,Renfrew,8190,76,59,94,80,77,Non-Indigenous Community
+3547076,Petawawa,18160,82,67,96,88,83,Non-Indigenous Community
+3547090,Laurentian Hills,2885,83,63,96,84,82,Non-Indigenous Community
+3548013,Papineau-Cameron,982,79,54,96,83,78,Non-Indigenous Community
+3548022,Calvin,557,76,60,94,82,78,Non-Indigenous Community
+3548031,Chisholm,1312,76,57,93,81,77,Non-Indigenous Community
+3548073,Nipissing 10,1640,74,60,90,76,75,First Nations Community
+3548094,"Nipissing, Unorganized, North Part",1591,78,59,94,82,78,Non-Indigenous Community
+3549005,The Archipelago,979,84,67,98,80,82,Non-Indigenous Community
+3549012,McMurrich/Monteith,907,73,63,94,77,77,Non-Indigenous Community
+3549014,Perry,2650,76,58,95,83,78,Non-Indigenous Community
+3549043,Magnetawan,1753,76,61,93,77,77,Non-Indigenous Community
+3549046,Strong,1566,76,60,93,79,77,Non-Indigenous Community
+3549054,Machar,969,78,60,98,81,79,Non-Indigenous Community
+3549071,Nipissing,1769,80,64,95,80,80,Non-Indigenous Community
+3551001,Tehkummah,450,75,54,96,83,77,Non-Indigenous Community
+3551006,Central Manitoulin,2235,77,61,94,84,79,Non-Indigenous Community
+3551021,Billings,753,80,66,94,73,78,Non-Indigenous Community
+3551027,Gordon/Barrie Island,613,76,58,93,83,77,Non-Indigenous Community
+3551045,M'Chigeeng 22,926,69,56,88,71,71,First Nations Community
+3552001,French River / Rivi�re des Fran�ais,2828,79,57,95,78,77,Non-Indigenous Community
+3552026,Espanola,5185,79,59,96,81,79,Non-Indigenous Community
+3552031,Nairn and Hyman,373,85,62,93,81,80,Non-Indigenous Community
+3552036,Killarney,397,89,55,92,88,81,Non-Indigenous Community
+3554020,Temiskaming Shores,9634,79,59,95,86,80,Non-Indigenous Community
+3554024,Kerns,330,71,53,91,90,76,Non-Indigenous Community
+3554044,Charlton and Dack,686,75,56,85,87,76,Non-Indigenous Community
+3554062,Larder Lake,745,80,53,96,79,77,Non-Indigenous Community
+3554094,"Timiskaming, Unorganized, West Part",3210,81,59,94,84,79,Non-Indigenous Community
+3556014,Black River-Matheson,2572,78,51,94,84,77,Non-Indigenous Community
+3556042,Cochrane,5390,78,56,92,83,77,Non-Indigenous Community
+3556070,Val Rita-Harty,757,81,57,92,80,78,Non-Indigenous Community
+3556106,Moosonee,1512,77,60,82,83,76,Non-Indigenous Community
+3557051,"Macdonald, Meredith and Aberdeen Additional",1513,81,69,96,85,83,Non-Indigenous Community
+3557061,Sault Ste. Marie,72051,80,65,96,81,80,Non-Indigenous Community
+3557066,Prince,975,87,70,96,85,84,Non-Indigenous Community
+3557076,Wawa,2705,81,60,92,86,80,Non-Indigenous Community
+3558003,Fort William 52,964,65,48,82,67,66,First Nations Community
+3558011,Oliver Paipoonge,6035,84,67,96,86,83,Non-Indigenous Community
+3559011,Alberton,954,82,65,94,86,82,Non-Indigenous Community
+3559012,Fort Frances,7466,82,63,95,86,81,Non-Indigenous Community
+3559016,La Vallee,788,78,64,96,87,81,Non-Indigenous Community
+3560021,Machin,1012,83,56,92,81,78,Non-Indigenous Community
+3560024,Eagle Lake 27,257,63,55,82,64,66,First Nations Community
+3560034,Sioux Lookout,5839,84,63,92,89,82,Non-Indigenous Community
+3560042,Red Lake,4094,88,63,94,87,83,Non-Indigenous Community
+3560054,Cat Lake 63C,651,48,14,53,66,45,First Nations Community
+3560055,Osnaburgh 63B,524,38,20,53,65,44,First Nations Community
+3560067,Poplar Hill,663,50,15,51,72,47,First Nations Community
+3560076,Sachigo Lake 1,608,54,32,63,81,58,First Nations Community
+3560079,Webequie,723,52,29,61,72,54,First Nations Community
+3560080,North Spirit Lake,265,39,22,59,74,48,First Nations Community
+3560086,Summer Beaver,355,51,23,52,82,52,First Nations Community
+3560095,Bearskin Lake,447,46,31,67,79,56,First Nations Community
+3560096,Kasabonika Lake,1060,51,27,62,73,53,First Nations Community
+3560098,Kingfisher Lake 1,511,59,26,59,80,56,First Nations Community
+4602024,Emerson-Franklin,2437,70,51,92,88,75,Non-Indigenous Community
+4602057,Ste. Anne,5584,74,56,95,87,78,Non-Indigenous Community
+4603030,Montcalm,1278,75,55,95,90,79,Non-Indigenous Community
+4603047,Stanley,8981,66,48,91,88,73,Non-Indigenous Community
+4603074,Carman,3114,81,60,97,88,81,Non-Indigenous Community
+4605038,Deloraine-Winchester,1478,80,60,96,92,82,Non-Indigenous Community
+4605044,Brenda-Waskada,650,74,55,95,86,78,Non-Indigenous Community
+4605062,Grassland,1583,74,61,94,91,80,Non-Indigenous Community
+4607052,Souris-Glenwood,2547,77,60,95,88,80,Non-Indigenous Community
+4607066,North Cypress-Langford,3011,81,63,95,88,82,Non-Indigenous Community
+4607071,Elton,1276,82,66,93,90,83,Non-Indigenous Community
+4608032,Norfolk-Treherne,1770,82,59,97,87,81,Non-Indigenous Community
+4608055,Glenella-Lansdowne,1133,68,51,95,88,76,Non-Indigenous Community
+4609018,Grey,2517,70,59,98,90,79,Non-Indigenous Community
+4609025,Long Plain 6,1335,52,40,69,60,56,First Nations Community
+4609029,Portage la Prairie,13270,76,60,93,86,79,Non-Indigenous Community
+4613056,St. Clements,11586,85,63,95,87,82,Non-Indigenous Community
+4614036,Rockwood,8440,81,62,96,89,82,Non-Indigenous Community
+4614042,Teulon,1196,81,59,97,86,81,Non-Indigenous Community
+4615042,Birdtail Creek 57,452,42,25,76,51,48,First Nations Community
+4615047,Ellice-Archie,831,78,56,94,90,80,Non-Indigenous Community
+4615070,Harrison Park,1852,81,63,94,86,81,Non-Indigenous Community
+4615074,Minto-Odanah,1121,82,59,97,89,82,Non-Indigenous Community
+4615092,Clanwilliam-Erickson,1012,73,56,95,84,77,Non-Indigenous Community
+4616017,Waywayseecappo First Nation,1409,51,42,74,63,58,First Nations Community
+4617029,Ebb and Flow 52,1608,54,35,69,61,55,First Nations Community
+4618037,Armstrong,1967,71,54,92,83,75,Non-Indigenous Community
+4618056,West Interlake,2228,75,53,92,83,76,Non-Indigenous Community
+4618060,Grahamdale,1278,70,55,92,86,76,Non-Indigenous Community
+4618076,Bifrost-Riverton,3320,68,48,93,86,74,Non-Indigenous Community
+4619056,Fisher River 44,1449,61,50,70,69,63,First Nations Community
+4620048,Swan River,4049,76,57,95,84,78,Non-Indigenous Community
+4621029,Chemawawin 2,1264,52,35,58,65,52,First Nations Community
+4621045,The Pas,5639,79,64,90,86,80,Non-Indigenous Community
+4621052,Kelsey,2181,82,65,90,87,81,Non-Indigenous Community
+4622058,Norway House 17,5390,56,39,60,67,56,First Nations Community
+4623034,Leaf Rapids,351,58,30,85,56,57,Non-Indigenous Community
+4623037,South Indian Lake,578,55,31,49,72,52,First Nations Community
+4701022,Estevan No. 5,1279,88,60,97,85,83,Non-Indigenous Community
+4701039,Reciprocity No. 32,351,77,59,98,87,80,Non-Indigenous Community
+4701043,Storthoaks No. 31,306,75,65,90,98,82,Non-Indigenous Community
+4701053,Moose Mountain No. 63,489,79,60,94,88,80,Non-Indigenous Community
+4701056,Carlyle,1524,82,66,97,92,84,Non-Indigenous Community
+4701059,Arcola,636,83,57,95,92,82,Non-Indigenous Community
+4701063,Tecumseh No. 65,255,84,54,100,100,85,Non-Indigenous Community
+4701076,Wawken No. 93,614,86,65,94,90,84,Non-Indigenous Community
+4701808,White Bear 70,722,67,48,68,60,61,First Nations Community
+4702037,Cymri No. 36,568,85,63,93,87,82,Non-Indigenous Community
+4702051,Brokenshell No. 68,307,71,50,91,86,74,Non-Indigenous Community
+4702058,Ogema,383,66,62,86,90,76,Non-Indigenous Community
+4702062,Avonlea,411,87,72,98,93,87,Non-Indigenous Community
+4702072,Yellow Grass,483,76,65,97,86,81,Non-Indigenous Community
+4703038,Stonehenge No. 73,385,81,67,95,93,84,Non-Indigenous Community
+4703044,Lafleche,373,76,49,87,88,75,Non-Indigenous Community
+4704011,Frontier No. 19,347,72,63,97,95,82,Non-Indigenous Community
+4704019,Reno No. 51,343,74,50,92,94,78,Non-Indigenous Community
+4704034,Grassy Creek No. 78,341,75,55,96,94,80,Non-Indigenous Community
+4705014,Kingsley No. 124,396,80,71,98,90,85,Non-Indigenous Community
+4705016,Kipling,1076,87,64,98,91,85,Non-Indigenous Community
+4705018,Chester No. 125,333,82,59,97,89,82,Non-Indigenous Community
+4705029,Grenfell,1059,74,57,95,82,77,Non-Indigenous Community
+4705038,Rocanville,889,86,65,97,90,84,Non-Indigenous Community
+4705047,Langenburg No. 181,561,84,59,96,91,83,Non-Indigenous Community
+4705052,Esterhazy,2345,88,62,97,90,84,Non-Indigenous Community
+4705056,Stockholm,329,84,59,94,90,82,Non-Indigenous Community
+4705074,Melville,4493,80,59,94,87,80,Non-Indigenous Community
+4705077,Saltcoats No. 213,743,76,58,95,92,80,Non-Indigenous Community
+4705803,Cowessess 73,645,60,59,75,76,67,First Nations Community
+4705804,Kahkewistahaw 72,627,55,51,82,71,65,First Nations Community
+4706007,Vibank,386,81,59,97,90,82,Non-Indigenous Community
+4706011,Lajord No. 128,985,85,62,94,89,82,Non-Indigenous Community
+4706026,Sherwood No. 159,1219,89,69,98,92,87,Non-Indigenous Community
+4706031,Pilot Butte,2638,84,65,98,89,84,Non-Indigenous Community
+4706036,Qu'Appelle,625,79,54,92,87,78,Non-Indigenous Community
+4706038,Indian Head No. 156,362,78,68,98,94,85,Non-Indigenous Community
+4706047,Balcarres,616,73,56,94,84,77,Non-Indigenous Community
+4706058,Regina Beach,1292,99,65,95,85,86,Non-Indigenous Community
+4707024,Morse No. 165,396,74,58,95,88,79,Non-Indigenous Community
+4707039,Moose Jaw,33665,79,63,95,86,81,Non-Indigenous Community
+4707042,Marquis No. 191,303,88,65,98,90,85,Non-Indigenous Community
+4707053,Enfield No. 194,268,74,63,97,91,81,Non-Indigenous Community
+4707063,Victory No. 226,434,73,63,86,95,79,Non-Indigenous Community
+4708001,Swift Current No. 137,1995,82,65,96,92,84,Non-Indigenous Community
+4708011,Gull Lake,908,80,57,93,87,79,Non-Indigenous Community
+4708026,Fox Valley,259,76,63,97,87,81,Non-Indigenous Community
+4708031,Riverside No. 168,436,81,61,91,97,83,Non-Indigenous Community
+4708032,Cabri,413,79,58,95,86,80,Non-Indigenous Community
+4708044,Kyle,413,80,56,93,91,80,Non-Indigenous Community
+4708058,Leader,881,82,59,95,90,82,Non-Indigenous Community
+4708092,Monet No. 257,432,77,67,97,96,84,Non-Indigenous Community
+4708094,Elrose,470,81,64,93,93,83,Non-Indigenous Community
+4709011,Orkney No. 244,1883,83,63,95,87,82,Non-Indigenous Community
+4709023,Insinger No. 275,305,70,56,98,92,79,Non-Indigenous Community
+4709044,Pelly,255,71,46,91,65,68,Non-Indigenous Community
+4709058,Invermay,272,76,59,94,82,78,Non-Indigenous Community
+4709067,Clayton No. 333,631,75,39,94,94,75,Non-Indigenous Community
+4710003,Ituna Bon Accord No. 246,327,74,49,97,87,77,Non-Indigenous Community
+4710008,Kellross No. 247,396,64,55,93,87,75,Non-Indigenous Community
+4710038,Foam Lake,1183,73,54,99,83,77,Non-Indigenous Community
+4710066,Lakeview No. 337,366,74,68,90,87,80,Non-Indigenous Community
+4710825,Poorman 88,676,48,44,58,66,54,First Nations Community
+4711008,Imperial,372,73,60,92,83,77,Non-Indigenous Community
+4711019,Elbow,341,88,67,98,92,86,Non-Indigenous Community
+4711063,Dundurn,675,77,63,94,89,80,Non-Indigenous Community
+4711067,Langham,1518,76,64,97,90,82,Non-Indigenous Community
+4711075,Osler,1251,73,59,98,92,80,Non-Indigenous Community
+4711076,Colonsay No. 342,260,79,68,100,86,83,Non-Indigenous Community
+4711091,Viscount No. 341,320,77,66,92,90,81,Non-Indigenous Community
+4712034,Marriott No. 317,349,80,62,97,91,83,Non-Indigenous Community
+4712050,Perdue No. 346,471,81,66,94,92,83,Non-Indigenous Community
+4712051,Perdue,313,83,59,92,88,81,Non-Indigenous Community
+4712054,Vanscoy No. 345,2799,83,66,93,90,83,Non-Indigenous Community
+4712064,Eagle Creek No. 376,643,72,53,98,85,77,Non-Indigenous Community
+4712078,Battle River No. 438,1029,80,63,88,87,79,Non-Indigenous Community
+4712829,Red Pheasant 108,442,62,40,65,50,54,First Nations Community
+4713056,Grass Lake No. 381,389,81,62,96,87,82,Non-Indigenous Community
+4713068,Buffalo No. 409,420,82,63,98,96,85,Non-Indigenous Community
+4713091,Marsden,281,69,58,92,84,76,Non-Indigenous Community
+4713092,Hillsdale No. 440,528,80,50,94,90,79,Non-Indigenous Community
+4713098,Cut Knife,547,75,56,92,87,78,Non-Indigenous Community
+4714023,Ponass Lake No. 367,416,76,57,96,93,80,Non-Indigenous Community
+4714026,Spalding No. 368,420,75,60,87,86,77,Non-Indigenous Community
+4714043,Tisdale No. 427,885,82,66,97,85,82,Non-Indigenous Community
+4714049,Star City,374,75,51,93,84,76,Non-Indigenous Community
+4714051,Melfort,5955,78,61,95,89,81,Non-Indigenous Community
+4714059,Arborfield No. 456,338,85,53,95,96,82,Non-Indigenous Community
+4714845,Carrot River 29A,756,39,37,55,70,50,First Nations Community
+4715004,Muenster,403,79,65,100,84,82,Non-Indigenous Community
+4715007,Humboldt No. 370,961,79,61,98,92,82,Non-Indigenous Community
+4715014,Grant No. 372,525,75,63,90,92,80,Non-Indigenous Community
+4715017,Vonda,384,78,65,92,85,80,Non-Indigenous Community
+4715019,Aberdeen,716,77,70,96,86,83,Non-Indigenous Community
+4715034,Hague,889,75,59,97,92,81,Non-Indigenous Community
+4715049,St. Brieux,638,87,63,96,93,85,Non-Indigenous Community
+4715051,Flett's Springs No. 429,656,82,67,100,94,86,Non-Indigenous Community
+4715074,Kinistino,671,75,61,93,83,78,Non-Indigenous Community
+4715845,Beardy's 97 and Okemasis 96,1249,55,50,62,62,57,First Nations Community
+4715851,Little Red River 106C,367,55,41,53,65,54,First Nations Community
+4716011,Borden,281,80,69,97,90,84,Non-Indigenous Community
+4716028,North Battleford No. 437,687,84,63,96,92,84,Non-Indigenous Community
+4716042,Leask,379,74,57,95,85,78,Non-Indigenous Community
+4716047,Shellbrook,1510,79,63,96,88,82,Non-Indigenous Community
+4716058,Spiritwood,966,79,62,96,90,82,Non-Indigenous Community
+4716072,Big River,666,79,55,91,90,79,Non-Indigenous Community
+4716860,Ahtahkakoop 104,1402,51,44,64,56,54,First Nations Community
+4716863,Chitek Lake 191,705,52,34,59,63,52,First Nations Community
+4717018,Maidstone,1209,77,59,96,89,80,Non-Indigenous Community
+4717029,Lloydminster (Part),11843,77,63,94,86,80,Non-Indigenous Community
+4717048,Glaslyn,353,72,49,98,80,75,Non-Indigenous Community
+4717809,Ministikwan 161,549,50,37,67,54,52,First Nations Community
+4717813,Saulteaux 159,312,60,36,68,46,52,First Nations Community
+4718021,Green Lake,411,71,38,86,72,67,Non-Indigenous Community
+4718051,Creighton,1203,83,56,95,87,80,Non-Indigenous Community
+4718065,Pinehouse,1013,63,38,83,65,62,Non-Indigenous Community
+4718067,�le-�-la-Crosse,1425,69,52,87,69,69,Non-Indigenous Community
+4718090,"Division No. 18, Unorganized",1871,80,54,87,76,74,Non-Indigenous Community
+4718808,Morin Lake 217,575,49,22,60,51,46,First Nations Community
+4718809,Lac La Ronge 156,1349,59,36,65,59,55,First Nations Community
+4718811,Sucker River 156C (Nemebien River 156C),384,58,28,70,61,54,First Nations Community
+4718817,Canoe Lake 165,950,53,49,69,65,59,First Nations Community
+4718819,Turnor Lake 193B,428,57,45,72,69,61,First Nations Community
+4718820,Pelican Narrows 184B,1837,46,29,44,54,43,First Nations Community
+4718822,Southend 200,913,57,34,53,69,53,First Nations Community
+4718831,Grandmother's Bay 219,344,54,17,89,47,52,First Nations Community
+4718832,Lac La Hache 220,1279,50,20,53,56,45,First Nations Community
+4801014,Bow Island,2036,70,39,95,86,72,Non-Indigenous Community
+4802011,Lethbridge County,10120,78,59,94,89,80,Non-Indigenous Community
+4802013,Coalhurst,2869,76,64,98,85,81,Non-Indigenous Community
+4802018,Picture Butte,1930,73,52,97,85,77,Non-Indigenous Community
+4802019,Coaldale,8771,78,60,96,87,80,Non-Indigenous Community
+4802021,Taber,7447,69,41,95,86,73,Non-Indigenous Community
+4802023,Barnwell,978,69,43,94,81,72,Non-Indigenous Community
+4803006,Glenwood,272,65,67,99,87,79,Non-Indigenous Community
+4803026,Nanton,2167,78,61,96,86,80,Non-Indigenous Community
+4803801,Piikani 147,1550,59,44,70,65,60,First Nations Community
+4804011,Hanna,2394,82,58,94,85,80,Non-Indigenous Community
+4805001,Vulcan County,4237,78,63,95,90,81,Non-Indigenous Community
+4805041,Kneehill County,4992,80,58,94,87,80,Non-Indigenous Community
+4805044,Acme,606,75,55,92,86,77,Non-Indigenous Community
+4806001,Foothills County,23199,98,73,97,87,89,Non-Indigenous Community
+4807002,Provost,1900,79,60,97,89,81,Non-Indigenous Community
+4807026,Stettler,5695,78,61,96,86,80,Non-Indigenous Community
+4807044,Sedgewick,761,80,63,98,86,82,Non-Indigenous Community
+4807054,Wainwright,6606,81,63,95,88,82,Non-Indigenous Community
+4808011,Red Deer,100844,81,65,96,85,82,Non-Indigenous Community
+4808024,Eckville,1014,76,58,95,81,77,Non-Indigenous Community
+4808031,Lacombe,13396,79,66,96,85,82,Non-Indigenous Community
+4808038,Ponoka County,9998,80,60,96,86,80,Non-Indigenous Community
+4808811,Samson 137,3252,57,41,50,57,51,First Nations Community
+4808813,Montana 139,598,56,41,61,56,54,First Nations Community
+4809010,Caroline,470,67,49,90,72,70,Non-Indigenous Community
+4810009,Bawlf,412,75,57,96,81,77,Non-Indigenous Community
+4810011,Camrose,18772,80,62,96,85,81,Non-Indigenous Community
+4811001,Wetaskiwin County No. 10,11212,80,60,94,85,80,Non-Indigenous Community
+4811031,Drayton Valley,7291,80,60,95,86,80,Non-Indigenous Community
+4811802,Pigeon Lake 138A,285,53,33,57,51,49,First Nations Community
+4812022,Smoky Lake County,3874,73,54,87,76,73,Non-Indigenous Community
+4813011,Sunset Point,257,86,54,95,76,78,Non-Indigenous Community
+4813029,Woodlands County,4558,84,58,93,85,80,Non-Indigenous Community
+4813031,Westlock,4921,76,57,96,83,78,Non-Indigenous Community
+4813036,Thorhild County,3042,79,56,94,85,78,Non-Indigenous Community
+4813044,Athabasca County,6959,82,59,96,85,81,Non-Indigenous Community
+4813046,Boyle,825,79,53,99,88,80,Non-Indigenous Community
+4817027,Big Lakes County,4986,75,50,87,79,73,Non-Indigenous Community
+4817824,Utikoomak Lake 155,734,52,19,51,57,45,First Nations Community
+4817835,Fox Lake 162,2488,39,13,24,58,33,First Nations Community
+4817837,John D'Or Prairie 215,702,77,49,66,83,69,First Nations Community
+4819009,Beaverlodge,2271,80,59,92,83,79,Non-Indigenous Community
+4819038,Peace River,6619,83,63,92,88,82,Non-Indigenous Community
+4819041,Smoky River No. 130,1684,82,60,92,90,81,Non-Indigenous Community
+4819044,Donnelly,338,76,62,93,91,81,Non-Indigenous Community
+4819054,Spirit River No. 133,649,80,53,92,89,78,Non-Indigenous Community
+4819059,Saddle Hills County,2338,77,54,95,90,79,Non-Indigenous Community
+4819071,Peace No. 135,1581,82,55,92,86,79,Non-Indigenous Community
+5901017,East Kootenay A,1875,89,67,96,89,85,Non-Indigenous Community
+5901019,East Kootenay B,2011,83,61,95,82,80,Non-Indigenous Community
+5901039,Invermere,3917,81,69,95,90,84,Non-Indigenous Community
+5901043,Canal Flats,802,76,53,95,83,77,Non-Indigenous Community
+5901046,East Kootenay F,3521,84,71,96,85,84,Non-Indigenous Community
+5901806,Shuswap,319,77,66,93,88,81,First Nations Community
+5903023,Kaslo,1049,72,69,94,85,80,Non-Indigenous Community
+5903032,New Denver,487,67,58,92,77,74,Non-Indigenous Community
+5903047,Central Kootenay G,1650,75,60,94,80,77,Non-Indigenous Community
+5903060,Central Kootenay K,1784,77,60,94,77,77,Non-Indigenous Community
+5905032,Grand Forks,4112,75,59,96,85,79,Non-Indigenous Community
+5905052,Kootenay Boundary D / Rural Grand Forks,3226,77,61,96,82,79,Non-Indigenous Community
+5905054,Kootenay Boundary E / West Boundary,3004,74,63,93,79,77,Non-Indigenous Community
+5907022,Okanagan-Similkameen A,2139,83,64,97,82,81,Non-Indigenous Community
+5907049,Okanagan-Similkameen E,2015,85,74,97,84,85,Non-Indigenous Community
+5907053,Okanagan-Similkameen G,2298,72,55,95,75,74,Non-Indigenous Community
+5907055,Okanagan-Similkameen H,2232,82,56,98,78,78,Non-Indigenous Community
+5909016,Fraser Valley B,869,79,47,86,75,72,Non-Indigenous Community
+5909056,Mission,41519,78,62,95,87,80,Non-Indigenous Community
+5909060,Fraser Valley F,1384,76,57,93,85,78,Non-Indigenous Community
+5909821,Kwawkwawapilt 6,295,73,49,97,76,74,First Nations Community
+5909832,Seabird Island,800,58,52,79,72,65,First Nations Community
+5909856,Langley 2,332,75,53,92,77,75,First Nations Community
+5915025,Burnaby,249125,81,75,92,85,83,Non-Indigenous Community
+5915065,Lions Bay,1390,97,81,96,91,91,Non-Indigenous Community
+5915070,Pitt Meadows,19146,83,68,95,89,84,Non-Indigenous Community
+5915075,Maple Ridge,90990,82,68,96,88,83,Non-Indigenous Community
+5915802,Tsawwassen,2256,87,73,97,86,86,First Nations Community
+5915825,Matsqui 4,456,76,52,97,84,77,First Nations Community
+5917040,Esquimalt,17533,82,70,95,87,84,Non-Indigenous Community
+5917049,Highlands,2482,85,69,97,88,85,Non-Indigenous Community
+5917804,South Saanich 1,712,62,48,84,72,66,First Nations Community
+5917812,New Songhees 1A,1839,73,56,90,78,74,First Nations Community
+5919012,Duncan,5047,74,61,95,83,78,Non-Indigenous Community
+5919017,Cowichan Valley H,2603,85,67,97,89,84,Non-Indigenous Community
+5921008,Lantzville,3817,84,68,95,86,83,Non-Indigenous Community
+5921016,Nanaimo C,3344,83,67,96,83,82,Non-Indigenous Community
+5921023,Qualicum Beach,9303,84,72,99,81,84,Non-Indigenous Community
+5921804,Nanaimo Town 1,386,65,44,79,71,65,First Nations Community
+5923008,Port Alberni,18259,75,58,95,82,77,Non-Indigenous Community
+5923033,Alberni-Clayoquot B,531,72,57,98,80,77,Non-Indigenous Community
+5923816,Tsahaheh 1,596,66,45,88,74,68,First Nations Community
+5924042,Strathcona D (Oyster Bay - Buttle Lake),4153,82,63,97,83,82,Non-Indigenous Community
+5924804,Campbell River 11,506,71,52,94,82,75,First Nations Community
+5926014,Cumberland,4447,79,69,97,89,83,Non-Indigenous Community
+5926021,Comox Valley A,7926,80,68,94,83,81,Non-Indigenous Community
+5927016,qathet C,2197,74,64,91,78,77,Non-Indigenous Community
+5927020,qathet E,498,71,69,87,85,78,Non-Indigenous Community
+5929011,Sechelt,10847,82,69,97,86,83,Non-Indigenous Community
+5931006,Squamish,23819,86,75,95,91,87,Non-Indigenous Community
+5931021,Squamish-Lillooet D,1057,94,81,96,88,90,Non-Indigenous Community
+5931026,Lillooet,2302,79,59,94,83,79,Non-Indigenous Community
+5931843,Mount Currie,1242,61,53,77,71,65,First Nations Community
+5933019,Ashcroft,1670,78,56,90,81,76,Non-Indigenous Community
+5933067,Clearwater,2388,75,60,94,78,77,Non-Indigenous Community
+5933072,Thompson-Nicola O (Lower North Thompson),1523,76,60,91,84,78,Non-Indigenous Community
+5933074,Barriere,1765,76,54,95,75,75,Non-Indigenous Community
+5933884,Sahhaltkum 4,316,67,51,90,72,70,First Nations Community
+5935010,Kelowna,144576,83,70,97,88,84,Non-Indigenous Community
+5935020,Central Okanagan West,2897,85,64,96,79,81,Non-Indigenous Community
+5935029,West Kelowna,36078,83,68,97,87,84,Non-Indigenous Community
+5937028,Armstrong,5323,78,62,97,88,81,Non-Indigenous Community
+5939037,Columbia-Shuswap C,8919,80,62,96,81,80,Non-Indigenous Community
+5939045,Sicamous,2613,77,53,96,81,77,Non-Indigenous Community
+5941005,One Hundred Mile House,1928,73,52,97,78,75,Non-Indigenous Community
+5941019,Cariboo A,6169,79,56,95,81,78,Non-Indigenous Community
+5941039,Cariboo J,616,81,61,96,76,78,Non-Indigenous Community
+5943017,Port Alice,739,79,60,92,77,77,Non-Indigenous Community
+5943037,Mount Waddington A,695,77,62,92,81,78,Non-Indigenous Community
+5943837,Alert Bay,382,68,41,86,75,67,First Nations Community
+5945801,Bella Bella 1,1193,63,54,73,79,67,First Nations Community
+5947007,Port Edward,470,82,51,89,89,78,Non-Indigenous Community
+5947023,Masset,838,79,60,88,84,78,Non-Indigenous Community
+5947803,Masset 1,475,63,38,82,72,64,First Nations Community
+5947809,Lax Kw'alaams 1,627,57,31,77,65,58,First Nations Community
+5949018,Kitimat-Stikine E,3932,80,58,91,85,78,Non-Indigenous Community
+5949813,Kispiox 1,578,62,50,62,65,60,First Nations Community
+5949814,Gitsegukla 1,444,60,37,76,60,59,First Nations Community
+5949817,Moricetown 1,253,67,41,72,69,62,First Nations Community
+5951022,Burns Lake,1659,81,65,92,86,81,Non-Indigenous Community
+5951038,Telkwa,1474,77,66,93,87,81,Non-Indigenous Community
+5951043,Smithers,5378,81,67,96,92,84,Non-Indigenous Community
+5953007,Valemount,1052,77,64,95,88,81,Non-Indigenous Community
+5953012,McBride,588,75,59,93,83,77,Non-Indigenous Community
+5955010,Chetwynd,2302,85,58,95,85,81,Non-Indigenous Community
+5955030,Taylor,1317,82,56,94,85,79,Non-Indigenous Community
+5955040,Peace River B,5379,76,51,93,85,76,Non-Indigenous Community
+5959806,Fort Nelson 2,419,71,42,81,73,67,First Nations Community
+6001003,Watson Lake,1133,80,55,86,81,76,Non-Indigenous Community
+6001012,Carmacks,588,81,54,84,81,75,First Nations Community
+6001037,Ross River,355,75,45,78,73,67,First Nations Community
+6001044,Mt. Lorne,468,89,74,99,94,89,Non-Indigenous Community
+6001048,Carcross,317,82,51,73,71,69,First Nations Community
+6001055,Ibex Valley,523,80,75,94,90,85,Non-Indigenous Community
+6001058,Marsh Lake,746,88,74,86,87,84,Non-Indigenous Community
+6101036,Tuktoyaktuk,937,70,31,68,65,59,Inuit Community
+6101095,Ulukhaktok,408,72,31,72,74,62,Inuit Community
+6103034,What�,543,74,26,71,66,59,First Nations Community
+6104009,Fort Liard,468,70,29,78,70,62,First Nations Community
+6104014,Fort Providence,618,81,38,75,73,67,First Nations Community
+6106097,"Region 6, Unorganized",273,100,66,91,84,85,Non-Indigenous Community
+6204010,Qikiqtarjuaq,593,66,17,75,65,56,Inuit Community
+6204020,Pond Inlet,1555,69,37,60,71,59,Inuit Community
+6205014,Coral Harbour,1035,66,34,56,67,55,Inuit Community
+6205015,Arviat,2864,67,30,51,70,54,Inuit Community
+6208081,Gjoa Haven,1349,65,26,52,71,54,Inuit Community
